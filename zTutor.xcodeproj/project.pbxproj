@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95D5F7313DF77533BE9181F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE9181F4 /* UIKit.framework */; };
+		95D5F7313DF77533BE9181F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE9181F6 /* Foundation.framework */; };
+		95D5F7313DF77533BE9181F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE9181F8 /* CoreGraphics.framework */; };
+		95D5F7313DF77533BE9181FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE9181FE /* InfoPlist.strings */; };
+		95D5F7313DF77533BE918202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918201 /* main.m */; };
+		95D5F7313DF77533BE918205 /* zTutorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918204 /* zTutorAppDelegate.m */; };
+		95D5F7313DF77533BE918208 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918207 /* MainWindow.xib */; };
+		95D5F7313DF77533BE91820B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91820A /* FirstViewController.m */; };
+		95D5F7313DF77533BE91820E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91820D /* SecondViewController.m */; };
+		95D5F7313DF77533BE918211 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918210 /* FirstView.xib */; };
+		95D5F7313DF77533BE918214 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918213 /* SecondView.xib */; };
+		95D5F7313DF77533BE91821E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE9181F4 /* UIKit.framework */; };
+		95D5F7313DF77533BE91821F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE9181F6 /* Foundation.framework */; };
+		95D5F7313DF77533BE918220 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE9181F8 /* CoreGraphics.framework */; };
+		95D5F7313DF77533BE918228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918227 /* InfoPlist.strings */; };
+		95D5F7313DF77533BE91822C /* zTutorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91822B /* zTutorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95D5F7313DF77533BE918221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D5F7313DF77533BE9181E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D5F7313DF77533BE9181EC;
+			remoteInfo = zTutor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95D5F7313DF77533BE9181EB /* zTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D5F7313DF77533BE9181F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95D5F7313DF77533BE9181F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95D5F7313DF77533BE9181F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95D5F7313DF77533BE9181FC /* zTutor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "zTutor-Info.plist"; sourceTree = "<group>"; };
+		95D5F7313DF77533BE9181FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918200 /* zTutor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zTutor-Prefix.pch"; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918203 /* zTutorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zTutorAppDelegate.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918204 /* zTutorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zTutorAppDelegate.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918206 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918209 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91820A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91820C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91820D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91820F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918212 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918215 /* zTutorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zTutorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D5F7313DF77533BE918225 /* zTutorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "zTutorTests-Info.plist"; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918229 /* zTutorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zTutorTests-Prefix.pch"; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91822A /* zTutorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zTutorTests.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91822B /* zTutorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zTutorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95D5F7313DF77533BE9181F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D5F7313DF77533BE9181F5 /* UIKit.framework in Frameworks */,
+				95D5F7313DF77533BE9181F7 /* Foundation.framework in Frameworks */,
+				95D5F7313DF77533BE9181F9 /* CoreGraphics.framework in Frameworks */,
+			);
+		};
+		95D5F7313DF77533BE91821B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D5F7313DF77533BE91821E /* UIKit.framework in Frameworks */,
+				95D5F7313DF77533BE91821F /* Foundation.framework in Frameworks */,
+				95D5F7313DF77533BE918220 /* CoreGraphics.framework in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95D5F7313DF77533BE9181E7 = {
+			isa = PBXGroup;
+			children = (
+				95D5F7313DF77533BE9181E8 /* Products */,
+				95D5F7313DF77533BE9181F3 /* Frameworks */,
+				95D5F7313DF77533BE9181FA /* zTutor */,
+				95D5F7313DF77533BE918223 /* zTutorTests */,
+			);
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE9181E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95D5F7313DF77533BE9181EB /* zTutor.app */,
+				95D5F7313DF77533BE918215 /* zTutorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE9181F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95D5F7313DF77533BE9181F8 /* CoreGraphics.framework */,
+				95D5F7313DF77533BE9181F6 /* Foundation.framework */,
+				95D5F7313DF77533BE9181F4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE9181FA /* zTutor */ = {
+			isa = PBXGroup;
+			children = (
+				95D5F7313DF77533BE918213 /* SecondView.xib */,
+				95D5F7313DF77533BE918210 /* FirstView.xib */,
+				95D5F7313DF77533BE91820D /* SecondViewController.m */,
+				95D5F7313DF77533BE91820C /* SecondViewController.h */,
+				95D5F7313DF77533BE91820A /* FirstViewController.m */,
+				95D5F7313DF77533BE918209 /* FirstViewController.h */,
+				95D5F7313DF77533BE918207 /* MainWindow.xib */,
+				95D5F7313DF77533BE918204 /* zTutorAppDelegate.m */,
+				95D5F7313DF77533BE918203 /* zTutorAppDelegate.h */,
+				95D5F7313DF77533BE9181FB /* Supporting Files */,
+			);
+			path = zTutor;
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE9181FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95D5F7313DF77533BE918201 /* main.m */,
+				95D5F7313DF77533BE918200 /* zTutor-Prefix.pch */,
+				95D5F7313DF77533BE9181FE /* InfoPlist.strings */,
+				95D5F7313DF77533BE9181FC /* zTutor-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE918223 /* zTutorTests */ = {
+			isa = PBXGroup;
+			children = (
+				95D5F7313DF77533BE91822B /* zTutorTests.m */,
+				95D5F7313DF77533BE91822A /* zTutorTests.h */,
+				95D5F7313DF77533BE918224 /* Supporting Files */,
+			);
+			path = zTutorTests;
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE918224 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95D5F7313DF77533BE918229 /* zTutorTests-Prefix.pch */,
+				95D5F7313DF77533BE918227 /* InfoPlist.strings */,
+				95D5F7313DF77533BE918225 /* zTutorTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95D5F7313DF77533BE9181EC /* zTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D5F7313DF77533BE9181ED /* Build configuration list for PBXNativeTarget "zTutor" */;
+			buildPhases = (
+				95D5F7313DF77533BE9181F0 /* Sources */,
+				95D5F7313DF77533BE9181F1 /* Frameworks */,
+				95D5F7313DF77533BE9181F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zTutor;
+			productName = zTutor;
+			productReference = 95D5F7313DF77533BE9181EB /* zTutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95D5F7313DF77533BE918216 /* zTutorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D5F7313DF77533BE918217 /* Build configuration list for PBXNativeTarget "zTutorTests" */;
+			buildPhases = (
+				95D5F7313DF77533BE91821A /* Sources */,
+				95D5F7313DF77533BE91821B /* Frameworks */,
+				95D5F7313DF77533BE91821C /* Resources */,
+				95D5F7313DF77533BE91821D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95D5F7313DF77533BE918222 /* PBXTargetDependency */,
+			);
+			name = zTutorTests;
+			productName = zTutorTests;
+			productReference = 95D5F7313DF77533BE918215 /* zTutorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D5F7313DF77533BE9181E5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 95D5F7313DF77533BE9181E6 /* Build configuration list for PBXProject "zTutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95D5F7313DF77533BE9181E7;
+			productRefGroup = 95D5F7313DF77533BE9181E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95D5F7313DF77533BE9181EC /* zTutor */,
+				95D5F7313DF77533BE918216 /* zTutorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95D5F7313DF77533BE9181F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D5F7313DF77533BE9181FF /* InfoPlist.strings in Resources */,
+				95D5F7313DF77533BE918208 /* MainWindow.xib in Resources */,
+				95D5F7313DF77533BE918211 /* FirstView.xib in Resources */,
+				95D5F7313DF77533BE918214 /* SecondView.xib in Resources */,
+			);
+		};
+		95D5F7313DF77533BE91821C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D5F7313DF77533BE918228 /* InfoPlist.strings in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95D5F7313DF77533BE91821D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D5F7313DF77533BE9181F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D5F7313DF77533BE918202 /* main.m in Sources */,
+				95D5F7313DF77533BE918205 /* zTutorAppDelegate.m in Sources */,
+				95D5F7313DF77533BE91820B /* FirstViewController.m in Sources */,
+				95D5F7313DF77533BE91820E /* SecondViewController.m in Sources */,
+			);
+		};
+		95D5F7313DF77533BE91821A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D5F7313DF77533BE91822C /* zTutorTests.m in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95D5F7313DF77533BE918222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D5F7313DF77533BE9181EC /* zTutor */;
+			targetProxy = 95D5F7313DF77533BE918221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95D5F7313DF77533BE9181FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D5F7313DF77533BE9181FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE918207 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D5F7313DF77533BE918206 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE918210 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D5F7313DF77533BE91820F /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE918213 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D5F7313DF77533BE918212 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		95D5F7313DF77533BE918227 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D5F7313DF77533BE918226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95D5F7313DF77533BE9181E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		95D5F7313DF77533BE9181EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95D5F7313DF77533BE9181EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutor/zTutor-Prefix.pch";
+				INFOPLIST_FILE = "zTutor/zTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		95D5F7313DF77533BE9181EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutor/zTutor-Prefix.pch";
+				INFOPLIST_FILE = "zTutor/zTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95D5F7313DF77533BE918218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zTutor.app/zTutor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutorTests/zTutorTests-Prefix.pch";
+				INFOPLIST_FILE = "zTutorTests/zTutorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		95D5F7313DF77533BE918219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zTutor.app/zTutor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutorTests/zTutorTests-Prefix.pch";
+				INFOPLIST_FILE = "zTutorTests/zTutorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95D5F7313DF77533BE9181E6 /* Build configuration list for PBXProject "zTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D5F7313DF77533BE9181E9 /* Release */,
+				95D5F7313DF77533BE9181EA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D5F7313DF77533BE9181ED /* Build configuration list for PBXNativeTarget "zTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D5F7313DF77533BE9181EE /* Release */,
+				95D5F7313DF77533BE9181EF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95D5F7313DF77533BE918217 /* Build configuration list for PBXNativeTarget "zTutorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D5F7313DF77533BE918218 /* Release */,
+				95D5F7313DF77533BE918219 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95D5F7313DF77533BE9181E5 /* Project object */;
+}
