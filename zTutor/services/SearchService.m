@@ -6,7 +6,7 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <SearchService.h>
+#import "SearchService.h"
 
 @implementation ZTSearchService
 

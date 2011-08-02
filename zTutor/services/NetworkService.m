@@ -6,7 +6,7 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <NetworkService.h>
+#import "NetworkService.h"
 
 @implementation ZTNetworkService
 

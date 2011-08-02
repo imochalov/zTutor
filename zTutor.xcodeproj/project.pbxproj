@@ -23,6 +23,13 @@
 		95D5F7313DF77533BE918220 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE9181F8 /* CoreGraphics.framework */; };
 		95D5F7313DF77533BE918228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918227 /* InfoPlist.strings */; };
 		95D5F7313DF77533BE91822C /* zTutorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91822B /* zTutorTests.m */; };
+		95D5F7313DF77533BE91822F /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91822E /* BaseService.m */; };
+		95D5F7313DF77533BE918232 /* CardService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918231 /* CardService.m */; };
+		95D5F7313DF77533BE918235 /* DictionaryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918234 /* DictionaryService.m */; };
+		95D5F7313DF77533BE918238 /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918237 /* NetworkService.m */; };
+		95D5F7313DF77533BE91823B /* ScheduleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91823A /* ScheduleService.m */; };
+		95D5F7313DF77533BE91823E /* SearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91823D /* SearchService.m */; };
+		95D5F7313DF77533BE918241 /* SynchronizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918240 /* SynchronizationService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,20 @@
 		95D5F7313DF77533BE918229 /* zTutorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zTutorTests-Prefix.pch"; sourceTree = "<group>"; };
 		95D5F7313DF77533BE91822A /* zTutorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zTutorTests.h; sourceTree = "<group>"; };
 		95D5F7313DF77533BE91822B /* zTutorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zTutorTests.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91822D /* BaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseService.h; path = services/BaseService.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91822E /* BaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseService.m; path = services/BaseService.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918230 /* CardService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardService.h; path = services/CardService.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918231 /* CardService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CardService.m; path = services/CardService.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918233 /* DictionaryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DictionaryService.h; path = services/DictionaryService.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918234 /* DictionaryService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DictionaryService.m; path = services/DictionaryService.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918236 /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkService.h; path = services/NetworkService.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918237 /* NetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NetworkService.m; path = services/NetworkService.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918239 /* ScheduleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ScheduleService.h; path = services/ScheduleService.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91823A /* ScheduleService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ScheduleService.m; path = services/ScheduleService.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91823C /* SearchService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SearchService.h; path = services/SearchService.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91823D /* SearchService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SearchService.m; path = services/SearchService.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91823F /* SynchronizationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SynchronizationService.h; path = services/SynchronizationService.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918240 /* SynchronizationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SynchronizationService.m; path = services/SynchronizationService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +136,20 @@
 		95D5F7313DF77533BE9181FA /* zTutor */ = {
 			isa = PBXGroup;
 			children = (
+				95D5F7313DF77533BE918240 /* SynchronizationService.m */,
+				95D5F7313DF77533BE91823F /* SynchronizationService.h */,
+				95D5F7313DF77533BE91823D /* SearchService.m */,
+				95D5F7313DF77533BE91823C /* SearchService.h */,
+				95D5F7313DF77533BE91823A /* ScheduleService.m */,
+				95D5F7313DF77533BE918239 /* ScheduleService.h */,
+				95D5F7313DF77533BE918237 /* NetworkService.m */,
+				95D5F7313DF77533BE918236 /* NetworkService.h */,
+				95D5F7313DF77533BE918234 /* DictionaryService.m */,
+				95D5F7313DF77533BE918233 /* DictionaryService.h */,
+				95D5F7313DF77533BE918231 /* CardService.m */,
+				95D5F7313DF77533BE918230 /* CardService.h */,
+				95D5F7313DF77533BE91822E /* BaseService.m */,
+				95D5F7313DF77533BE91822D /* BaseService.h */,
 				95D5F7313DF77533BE918213 /* SecondView.xib */,
 				95D5F7313DF77533BE918210 /* FirstView.xib */,
 				95D5F7313DF77533BE91820D /* SecondViewController.m */,
@@ -262,6 +297,13 @@
 				95D5F7313DF77533BE918205 /* zTutorAppDelegate.m in Sources */,
 				95D5F7313DF77533BE91820B /* FirstViewController.m in Sources */,
 				95D5F7313DF77533BE91820E /* SecondViewController.m in Sources */,
+				95D5F7313DF77533BE91822F /* BaseService.m in Sources */,
+				95D5F7313DF77533BE918232 /* CardService.m in Sources */,
+				95D5F7313DF77533BE918235 /* DictionaryService.m in Sources */,
+				95D5F7313DF77533BE918238 /* NetworkService.m in Sources */,
+				95D5F7313DF77533BE91823B /* ScheduleService.m in Sources */,
+				95D5F7313DF77533BE91823E /* SearchService.m in Sources */,
+				95D5F7313DF77533BE918241 /* SynchronizationService.m in Sources */,
 			);
 		};
 		95D5F7313DF77533BE91821A /* Sources */ = {

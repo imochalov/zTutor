@@ -11,9 +11,15 @@
 #import "services/SearchService.h"
 #import "services/ScheduleService.h"
 #import "services/SynchronizationService.h"
+#import "CardService.h"
+#import "DictionaryService.h"
+#import "NetworkService.h"
 
 void initializeServices() {
+    [ZTNetworkService launch];
+    [ZTDictionaryService launch];
     [ZTSearchService launch];
+    [ZTCardService launch];
     [ZTScheduleService launch];
     [ZTSynchronizationService launch];
 }

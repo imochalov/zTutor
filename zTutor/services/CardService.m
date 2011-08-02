@@ -6,7 +6,7 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <CardService.h>
+#import "CardService.h"
 
 @implementation ZTCardService
 

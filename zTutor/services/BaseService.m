@@ -6,11 +6,11 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <BaseService.h.h>
+#import "BaseService.h"
 
 @implementation ZTBaseService
 
-- (void)lauch
++ (void)launch
 {
     //TODO: need implementation
 }
