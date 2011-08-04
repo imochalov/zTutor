@@ -30,6 +30,7 @@
 		95D5F7313DF77533BE91823B /* ScheduleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91823A /* ScheduleService.m */; };
 		95D5F7313DF77533BE91823E /* SearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91823D /* SearchService.m */; };
 		95D5F7313DF77533BE918241 /* SynchronizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918240 /* SynchronizationService.m */; };
+		95D5F7313DF77533BE918243 /* Tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918242 /* Tag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		95D5F7313DF77533BE91823D /* SearchService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SearchService.m; path = services/SearchService.m; sourceTree = "<group>"; };
 		95D5F7313DF77533BE91823F /* SynchronizationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SynchronizationService.h; path = services/SynchronizationService.h; sourceTree = "<group>"; };
 		95D5F7313DF77533BE918240 /* SynchronizationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SynchronizationService.m; path = services/SynchronizationService.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918242 /* Tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tag.png; path = resources/Tag.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		95D5F7313DF77533BE9181FA /* zTutor */ = {
 			isa = PBXGroup;
 			children = (
+				95D5F7313DF77533BE918242 /* Tag.png */,
 				95D5F7313DF77533BE918240 /* SynchronizationService.m */,
 				95D5F7313DF77533BE91823F /* SynchronizationService.h */,
 				95D5F7313DF77533BE91823D /* SearchService.m */,
@@ -266,6 +269,7 @@
 				95D5F7313DF77533BE918208 /* MainWindow.xib in Resources */,
 				95D5F7313DF77533BE918211 /* FirstView.xib in Resources */,
 				95D5F7313DF77533BE918214 /* SecondView.xib in Resources */,
+				95D5F7313DF77533BE918243 /* Tag.png in Resources */,
 			);
 		};
 		95D5F7313DF77533BE91821C /* Resources */ = {
