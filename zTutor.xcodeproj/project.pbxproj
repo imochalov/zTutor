@@ -14,8 +14,6 @@
 		95D5F7313DF77533BE918202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918201 /* main.m */; };
 		95D5F7313DF77533BE918205 /* zTutorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918204 /* zTutorAppDelegate.m */; };
 		95D5F7313DF77533BE918208 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918207 /* MainWindow.xib */; };
-		95D5F7313DF77533BE91820B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91820A /* FirstViewController.m */; };
-		95D5F7313DF77533BE91820E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91820D /* SecondViewController.m */; };
 		95D5F7313DF77533BE918211 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918210 /* FirstView.xib */; };
 		95D5F7313DF77533BE918214 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918213 /* SecondView.xib */; };
 		95D5F7313DF77533BE91821E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE9181F4 /* UIKit.framework */; };
@@ -31,6 +29,9 @@
 		95D5F7313DF77533BE91823E /* SearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91823D /* SearchService.m */; };
 		95D5F7313DF77533BE918241 /* SynchronizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918240 /* SynchronizationService.m */; };
 		95D5F7313DF77533BE918243 /* Tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918242 /* Tag.png */; };
+		95D5F7313DF77533BE918245 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918244 /* SearchViewController.m */; };
+		95D5F7313DF77533BE918248 /* LearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918247 /* LearnViewController.m */; };
+		95D5F7313DF77533BE91824D /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91824C /* Search.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +55,6 @@
 		95D5F7313DF77533BE918201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95D5F7313DF77533BE918203 /* zTutorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zTutorAppDelegate.h; sourceTree = "<group>"; };
 		95D5F7313DF77533BE918204 /* zTutorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zTutorAppDelegate.m; sourceTree = "<group>"; };
-		95D5F7313DF77533BE918206 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		95D5F7313DF77533BE918209 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		95D5F7313DF77533BE91820A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		95D5F7313DF77533BE91820C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		95D5F7313DF77533BE91820D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		95D5F7313DF77533BE91820F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		95D5F7313DF77533BE918212 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		95D5F7313DF77533BE918215 /* zTutorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zTutorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D5F7313DF77533BE918225 /* zTutorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "zTutorTests-Info.plist"; sourceTree = "<group>"; };
 		95D5F7313DF77533BE918226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -82,6 +76,11 @@
 		95D5F7313DF77533BE91823F /* SynchronizationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SynchronizationService.h; path = services/SynchronizationService.h; sourceTree = "<group>"; };
 		95D5F7313DF77533BE918240 /* SynchronizationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SynchronizationService.m; path = services/SynchronizationService.m; sourceTree = "<group>"; };
 		95D5F7313DF77533BE918242 /* Tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tag.png; path = resources/Tag.png; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918244 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = viewControllers/SearchViewController.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918246 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = viewControllers/SearchViewController.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918247 /* LearnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LearnViewController.m; path = viewControllers/LearnViewController.m; sourceTree = "<group>"; };
+		95D5F7313DF77533BE918249 /* LearnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LearnViewController.h; path = viewControllers/LearnViewController.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91824C /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Search.png; path = resources/Search.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +137,11 @@
 		95D5F7313DF77533BE9181FA /* zTutor */ = {
 			isa = PBXGroup;
 			children = (
+				95D5F7313DF77533BE91824C /* Search.png */,
+				95D5F7313DF77533BE918249 /* LearnViewController.h */,
+				95D5F7313DF77533BE918247 /* LearnViewController.m */,
+				95D5F7313DF77533BE918246 /* SearchViewController.h */,
+				95D5F7313DF77533BE918244 /* SearchViewController.m */,
 				95D5F7313DF77533BE918242 /* Tag.png */,
 				95D5F7313DF77533BE918240 /* SynchronizationService.m */,
 				95D5F7313DF77533BE91823F /* SynchronizationService.h */,
@@ -155,10 +159,6 @@
 				95D5F7313DF77533BE91822D /* BaseService.h */,
 				95D5F7313DF77533BE918213 /* SecondView.xib */,
 				95D5F7313DF77533BE918210 /* FirstView.xib */,
-				95D5F7313DF77533BE91820D /* SecondViewController.m */,
-				95D5F7313DF77533BE91820C /* SecondViewController.h */,
-				95D5F7313DF77533BE91820A /* FirstViewController.m */,
-				95D5F7313DF77533BE918209 /* FirstViewController.h */,
 				95D5F7313DF77533BE918207 /* MainWindow.xib */,
 				95D5F7313DF77533BE918204 /* zTutorAppDelegate.m */,
 				95D5F7313DF77533BE918203 /* zTutorAppDelegate.h */,
@@ -270,6 +270,7 @@
 				95D5F7313DF77533BE918211 /* FirstView.xib in Resources */,
 				95D5F7313DF77533BE918214 /* SecondView.xib in Resources */,
 				95D5F7313DF77533BE918243 /* Tag.png in Resources */,
+				95D5F7313DF77533BE91824D /* Search.png in Resources */,
 			);
 		};
 		95D5F7313DF77533BE91821C /* Resources */ = {
@@ -299,8 +300,6 @@
 			files = (
 				95D5F7313DF77533BE918202 /* main.m in Sources */,
 				95D5F7313DF77533BE918205 /* zTutorAppDelegate.m in Sources */,
-				95D5F7313DF77533BE91820B /* FirstViewController.m in Sources */,
-				95D5F7313DF77533BE91820E /* SecondViewController.m in Sources */,
 				95D5F7313DF77533BE91822F /* BaseService.m in Sources */,
 				95D5F7313DF77533BE918232 /* CardService.m in Sources */,
 				95D5F7313DF77533BE918235 /* DictionaryService.m in Sources */,
@@ -308,6 +307,8 @@
 				95D5F7313DF77533BE91823B /* ScheduleService.m in Sources */,
 				95D5F7313DF77533BE91823E /* SearchService.m in Sources */,
 				95D5F7313DF77533BE918241 /* SynchronizationService.m in Sources */,
+				95D5F7313DF77533BE918245 /* SearchViewController.m in Sources */,
+				95D5F7313DF77533BE918248 /* LearnViewController.m in Sources */,
 			);
 		};
 		95D5F7313DF77533BE91821A /* Sources */ = {
@@ -339,7 +340,6 @@
 		95D5F7313DF77533BE918207 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				95D5F7313DF77533BE918206 /* en */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
@@ -347,7 +347,6 @@
 		95D5F7313DF77533BE918210 /* FirstView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				95D5F7313DF77533BE91820F /* en */,
 			);
 			name = FirstView.xib;
 			sourceTree = "<group>";
@@ -355,7 +354,6 @@
 		95D5F7313DF77533BE918213 /* SecondView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				95D5F7313DF77533BE918212 /* en */,
 			);
 			name = SecondView.xib;
 			sourceTree = "<group>";

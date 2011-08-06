@@ -7,20 +7,48 @@
 //
 
 #import "zTutorAppDelegate.h"
+#import "SearchViewController.h"
+#import "LearnViewController.h"
 
 @implementation zTutorAppDelegate
 
+UIWindow *_window;
+                                   
+UITabBarController *_rootController;
 
-@synthesize window=_window;
+- (void)initalizeRootViewController {
+    NSMutableArray *viewControllersArray = [[NSMutableArray alloc] initWithCapacity:2];
+    
+    UIViewController *searchTabItem = [[ZTSearchViewController alloc] init];
+    [searchTabItem setTitle:@"Search"];
+    [searchTabItem.tabBarItem setImage:[[UIImage imageNamed:@"Search.png"] autorelease]];
+    [viewControllersArray addObject:searchTabItem];
+    [searchTabItem autorelease];
+    
+    UIViewController *learnTabItem = [[ZTLearnViewController alloc] init];
+    [learnTabItem setTitle:@"Learn"];
+    [learnTabItem.tabBarItem setImage:[[UIImage imageNamed:@"Tag.png"] autorelease]];
+    [viewControllersArray addObject:learnTabItem];
+    [learnTabItem autorelease];
 
-@synthesize tabBarController=_tabBarController;
+    _rootController = [[UITabBarController alloc] init];
+    [_rootController setViewControllers:viewControllersArray];
+
+    [viewControllersArray release];
+}
+
+- (void)initalizeWindow {
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [_window setBackgroundColor: [UIColor whiteColor]];
+    [_window addSubview:_rootController.view];
+    [_window makeKeyAndVisible];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    // Add the tab bar controller's current view as a subview of the window
-    self.window.rootViewController = self.tabBarController;
-    [self.window makeKeyAndVisible];
+    [self initalizeRootViewController];
+
+    [self initalizeWindow];
 
     return YES;
 }
@@ -72,8 +100,8 @@
 - (void)dealloc
 {
     [_window release];
-
-    [_tabBarController release];
+    
+    [_rootController release];
 
     [super dealloc];
 }
