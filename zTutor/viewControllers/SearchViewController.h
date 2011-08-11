@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ZTSearchViewController : UIViewController {
+@interface ZTSearchViewController 
+        : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate> {
 
 }
 

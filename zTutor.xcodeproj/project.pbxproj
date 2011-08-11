@@ -32,6 +32,7 @@
 		95D5F7313DF77533BE918245 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918244 /* SearchViewController.m */; };
 		95D5F7313DF77533BE918248 /* LearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE918247 /* LearnViewController.m */; };
 		95D5F7313DF77533BE91824D /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91824C /* Search.png */; };
+		95D5F7313DF77533BE918250 /* TranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5F7313DF77533BE91824F /* TranslateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		95D5F7313DF77533BE918247 /* LearnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LearnViewController.m; path = viewControllers/LearnViewController.m; sourceTree = "<group>"; };
 		95D5F7313DF77533BE918249 /* LearnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LearnViewController.h; path = viewControllers/LearnViewController.h; sourceTree = "<group>"; };
 		95D5F7313DF77533BE91824C /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Search.png; path = resources/Search.png; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91824E /* TranslateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TranslateViewController.h; path = viewControllers/TranslateViewController.h; sourceTree = "<group>"; };
+		95D5F7313DF77533BE91824F /* TranslateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TranslateViewController.m; path = viewControllers/TranslateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 		95D5F7313DF77533BE9181FA /* zTutor */ = {
 			isa = PBXGroup;
 			children = (
+				95D5F7313DF77533BE91824F /* TranslateViewController.m */,
+				95D5F7313DF77533BE91824E /* TranslateViewController.h */,
 				95D5F7313DF77533BE91824C /* Search.png */,
 				95D5F7313DF77533BE918249 /* LearnViewController.h */,
 				95D5F7313DF77533BE918247 /* LearnViewController.m */,
@@ -309,6 +314,7 @@
 				95D5F7313DF77533BE918241 /* SynchronizationService.m in Sources */,
 				95D5F7313DF77533BE918245 /* SearchViewController.m in Sources */,
 				95D5F7313DF77533BE918248 /* LearnViewController.m in Sources */,
+				95D5F7313DF77533BE918250 /* TranslateViewController.m in Sources */,
 			);
 		};
 		95D5F7313DF77533BE91821A /* Sources */ = {

@@ -7,25 +7,76 @@
 //
 
 #import "SearchViewController.h"
+#import "TranslateViewController.h"
 
 @implementation ZTSearchViewController
+
+UITableView *_table;
+NSMutableArray *_idx;
+
 - (void)loadView {
     [super loadView];
+    
+    _idx = [[NSMutableArray alloc] init];
+    [_idx addObject:@"test"];
+    [_idx addObject:@"test1"];
+    [_idx addObject:@"test2"];
     
     UIView *view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
     
     UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, view.frame.size.width, 36)];
+    [searchBar setAutocorrectionType: UITextAutocorrectionTypeNo];
     [view addSubview:searchBar];
+    [searchBar setDelegate: self];
     [searchBar release];
     
-    UITableView *table = [[UITableView alloc] 
+    _table = [[UITableView alloc] 
             initWithFrame:CGRectMake(0, 36, view.frame.size.width, view.frame.size.height - 36) 
             style:UITableViewStylePlain];
-    [view addSubview:table];
-    [table release];
+    [_table setDataSource: self];
+    [_table setDelegate: self];
+    [view addSubview:_table];
     
     [self setView: view];
     [view release];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 3;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [[UITableViewCell alloc] init];
+    id item = [_idx objectAtIndex: [indexPath row]];
+    [[cell textLabel] setText: (NSString *)item];
+    return [cell autorelease];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UIViewController *translateView = [[ZTTranslateViewController alloc] init];
+    //[translateView setTitle: (NSString *) [indexPath row]];
+    [[self navigationController] pushViewController:translateView animated:YES];
+    [translateView release];
+}
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    [searchBar setText:@"my"];
+}
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+    [_idx removeAllObjects];
+    [_idx addObject:[searchText stringByAppendingString:@" 1"]];
+    [_idx addObject:[searchText stringByAppendingString:@" 2"]];
+    [_idx addObject:[searchText stringByAppendingString:@" 3"]];
+    
+    [_table reloadData];
+}
+
+- (void)dealloc {
+    [_table release];
+    [_idx release];
+    
+    [super dealloc];
 }
 
 
