@@ -20,9 +20,11 @@ UITabBarController *_rootController;
     NSMutableArray *viewControllersArray = [[NSMutableArray alloc] initWithCapacity:2];
     
     UIViewController *searchTabItem = [[ZTSearchViewController alloc] init];
-    [searchTabItem setTitle:@"Search"];
-    [searchTabItem.tabBarItem setImage:[[UIImage imageNamed:@"Search.png"] autorelease]];
-    [viewControllersArray addObject:searchTabItem];
+    UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:searchTabItem];
+    [navCtrl setTitle:@"Search"];
+    [navCtrl.tabBarItem setImage:[[UIImage imageNamed:@"Search.png"] autorelease]];
+    [viewControllersArray addObject:navCtrl];
+    [navCtrl autorelease];
     [searchTabItem autorelease];
     
     UIViewController *learnTabItem = [[ZTLearnViewController alloc] init];
