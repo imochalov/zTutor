@@ -8,6 +8,22 @@
 
 #import "SearchService.h"
 
+
 @implementation ZTSearchService
+
+NSMutableArray *_index;
+
+- (void)loadIndex {
+    const int _INDEX_CAPECITY = 40000;
+    _index = [[NSMutableArray alloc] initWithCapacity:_INDEX_CAPECITY];
+    
+    //TODO: need load idx file;
+}
+
+- (void)launch {
+    
+    [self loadIndex];
+}
+
 
 @end

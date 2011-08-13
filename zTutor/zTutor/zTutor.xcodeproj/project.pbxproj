@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67F979D113F5D8FB003C012C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F979D013F5D8FB003C012C /* UIKit.framework */; };
+		67F979D313F5D8FB003C012C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F979D213F5D8FB003C012C /* Foundation.framework */; };
+		67F979D513F5D8FB003C012C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F979D413F5D8FB003C012C /* CoreGraphics.framework */; };
+		67F979DB13F5D8FB003C012C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67F979D913F5D8FB003C012C /* InfoPlist.strings */; };
+		67F979DE13F5D8FB003C012C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F979DD13F5D8FB003C012C /* main.m */; };
+		67F979E113F5D8FB003C012C /* zTutorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F979E013F5D8FB003C012C /* zTutorAppDelegate.m */; };
+		67F979E413F5D8FB003C012C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67F979E213F5D8FB003C012C /* MainWindow.xib */; };
+		67F979E713F5D8FB003C012C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F979E613F5D8FB003C012C /* FirstViewController.m */; };
+		67F979EA13F5D8FB003C012C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F979E913F5D8FB003C012C /* SecondViewController.m */; };
+		67F979ED13F5D8FB003C012C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67F979EB13F5D8FB003C012C /* FirstView.xib */; };
+		67F979F013F5D8FB003C012C /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67F979EE13F5D8FB003C012C /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67F979CC13F5D8FB003C012C /* zTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F979D013F5D8FB003C012C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67F979D213F5D8FB003C012C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67F979D413F5D8FB003C012C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67F979D813F5D8FB003C012C /* zTutor-Info.plist */ = {isa = PBXFileReference; path = "zTutor-Info.plist"; sourceTree = "<group>"; };
+		67F979DA13F5D8FB003C012C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67F979DC13F5D8FB003C012C /* zTutor-Prefix.pch */ = {isa = PBXFileReference; path = "zTutor-Prefix.pch"; sourceTree = "<group>"; };
+		67F979DD13F5D8FB003C012C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67F979DF13F5D8FB003C012C /* zTutorAppDelegate.h */ = {isa = PBXFileReference; path = zTutorAppDelegate.h; sourceTree = "<group>"; };
+		67F979E013F5D8FB003C012C /* zTutorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zTutorAppDelegate.m; sourceTree = "<group>"; };
+		67F979E313F5D8FB003C012C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		67F979E513F5D8FB003C012C /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		67F979E613F5D8FB003C012C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		67F979E813F5D8FB003C012C /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		67F979E913F5D8FB003C012C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		67F979EC13F5D8FB003C012C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		67F979EF13F5D8FB003C012C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67F979C913F5D8FB003C012C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F979D113F5D8FB003C012C /* UIKit.framework in Frameworks */,
+				67F979D313F5D8FB003C012C /* Foundation.framework in Frameworks */,
+				67F979D513F5D8FB003C012C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67F979C113F5D8FB003C012C = {
+			isa = PBXGroup;
+			children = (
+				67F979D613F5D8FB003C012C /* zTutor */,
+				67F979CF13F5D8FB003C012C /* Frameworks */,
+				67F979CD13F5D8FB003C012C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67F979CD13F5D8FB003C012C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67F979CC13F5D8FB003C012C /* zTutor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67F979CF13F5D8FB003C012C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F979D013F5D8FB003C012C /* UIKit.framework */,
+				67F979D213F5D8FB003C012C /* Foundation.framework */,
+				67F979D413F5D8FB003C012C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67F979D613F5D8FB003C012C /* zTutor */ = {
+			isa = PBXGroup;
+			children = (
+				67F979DF13F5D8FB003C012C /* zTutorAppDelegate.h */,
+				67F979E013F5D8FB003C012C /* zTutorAppDelegate.m */,
+				67F979E213F5D8FB003C012C /* MainWindow.xib */,
+				67F979E513F5D8FB003C012C /* FirstViewController.h */,
+				67F979E613F5D8FB003C012C /* FirstViewController.m */,
+				67F979E813F5D8FB003C012C /* SecondViewController.h */,
+				67F979E913F5D8FB003C012C /* SecondViewController.m */,
+				67F979EB13F5D8FB003C012C /* FirstView.xib */,
+				67F979EE13F5D8FB003C012C /* SecondView.xib */,
+				67F979D713F5D8FB003C012C /* Supporting Files */,
+			);
+			path = zTutor;
+			sourceTree = "<group>";
+		};
+		67F979D713F5D8FB003C012C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67F979D813F5D8FB003C012C /* zTutor-Info.plist */,
+				67F979D913F5D8FB003C012C /* InfoPlist.strings */,
+				67F979DC13F5D8FB003C012C /* zTutor-Prefix.pch */,
+				67F979DD13F5D8FB003C012C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67F979CB13F5D8FB003C012C /* zTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F979F313F5D8FB003C012C /* Build configuration list for PBXNativeTarget "zTutor" */;
+			buildPhases = (
+				67F979C813F5D8FB003C012C /* Sources */,
+				67F979C913F5D8FB003C012C /* Frameworks */,
+				67F979CA13F5D8FB003C012C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zTutor;
+			productName = zTutor;
+			productReference = 67F979CC13F5D8FB003C012C /* zTutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67F979C313F5D8FB003C012C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 67F979C613F5D8FB003C012C /* Build configuration list for PBXProject "zTutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67F979C113F5D8FB003C012C;
+			productRefGroup = 67F979CD13F5D8FB003C012C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67F979CB13F5D8FB003C012C /* zTutor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67F979CA13F5D8FB003C012C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F979DB13F5D8FB003C012C /* InfoPlist.strings in Resources */,
+				67F979E413F5D8FB003C012C /* MainWindow.xib in Resources */,
+				67F979ED13F5D8FB003C012C /* FirstView.xib in Resources */,
+				67F979F013F5D8FB003C012C /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67F979C813F5D8FB003C012C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F979DE13F5D8FB003C012C /* main.m in Sources */,
+				67F979E113F5D8FB003C012C /* zTutorAppDelegate.m in Sources */,
+				67F979E713F5D8FB003C012C /* FirstViewController.m in Sources */,
+				67F979EA13F5D8FB003C012C /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67F979D913F5D8FB003C012C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F979DA13F5D8FB003C012C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67F979E213F5D8FB003C012C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F979E313F5D8FB003C012C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		67F979EB13F5D8FB003C012C /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F979EC13F5D8FB003C012C /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		67F979EE13F5D8FB003C012C /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F979EF13F5D8FB003C012C /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67F979F113F5D8FB003C012C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67F979F213F5D8FB003C012C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		67F979F413F5D8FB003C012C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutor/zTutor-Prefix.pch";
+				INFOPLIST_FILE = "zTutor/zTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67F979F513F5D8FB003C012C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutor/zTutor-Prefix.pch";
+				INFOPLIST_FILE = "zTutor/zTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67F979C613F5D8FB003C012C /* Build configuration list for PBXProject "zTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F979F113F5D8FB003C012C /* Debug */,
+				67F979F213F5D8FB003C012C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F979F313F5D8FB003C012C /* Build configuration list for PBXNativeTarget "zTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F979F413F5D8FB003C012C /* Debug */,
+				67F979F513F5D8FB003C012C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67F979C313F5D8FB003C012C /* Project object */;
+}

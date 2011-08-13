@@ -10,4 +10,8 @@
 
 @implementation ZTCardService
 
+- (void)launch {
+
+}
+
 @end

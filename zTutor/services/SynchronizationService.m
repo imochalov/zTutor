@@ -10,4 +10,8 @@
 
 @implementation ZTSynchronizationService
 
+- (void)launch {
+    
+}
+
 @end

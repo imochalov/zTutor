@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseService.h"
+#import "IService.h"
 
 
-@interface ZTSearchService : ZTBaseService {
+@interface ZTSearchService : NSObject<IZTService> {
 
 }
 

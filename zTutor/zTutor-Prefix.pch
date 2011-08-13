@@ -13,4 +13,21 @@
 
     #import <Foundation/Foundation.h>
 
+    #import "ServiceManager.h"
+
+#define DOCUMENTS [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
+
+#define NETWORKSERVICE [ZTServiceManager getInstance:NSClassFromString(@"ZTNetworkService")]
+
+#define DICTIONARYSERVICE [ZTServiceManager getInstance:NSClassFromString(@"ZTDictionaryService")]
+
+#define SEARCHSERVICE [ZTServiceManager getInstance: NSClassFromString(@"ZTSearchService")]
+
+#define CARDSERVICE [ZTServiceManager getInstance:NSClassFromString(@"ZTCardService")]
+
+#define SCHEDULESERVICE [ZTServiceManager getInstance:NSClassFromString(@"ZTScheduleService")]
+
+#define SYNCHRONIZATIONSERVICE [ZTServiceManager getInstance:NSClassFromString(@"ZTSynchronizationService")]
+
+
 #endif

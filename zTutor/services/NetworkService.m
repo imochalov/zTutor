@@ -10,4 +10,8 @@
 
 @implementation ZTNetworkService
 
+- (void)launch {
+    
+}
+
 @end

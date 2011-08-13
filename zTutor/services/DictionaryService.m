@@ -10,4 +10,8 @@
 
 @implementation ZTDictionaryService
 
+- (void)launch {
+    
+}
+
 @end

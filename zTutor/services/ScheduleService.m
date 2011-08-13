@@ -10,4 +10,8 @@
 
 @implementation ZTScheduleService
 
+- (void)launch {
+    
+}
+
 @end
