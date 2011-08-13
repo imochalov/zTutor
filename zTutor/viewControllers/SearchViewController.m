@@ -8,14 +8,18 @@
 
 #import "SearchViewController.h"
 #import "TranslateViewController.h"
+#import "Article.h"
 
 @implementation ZTSearchViewController
 
 UITableView *_table;
 NSArray *_idx;
+UIViewController *_translateView;
 
 - (void)loadView {
     [super loadView];
+    
+    //[self setTitle:@"Lingvo Universal EN-RU"];
     
     _idx = [[NSArray alloc] init];
     
@@ -38,6 +42,10 @@ NSArray *_idx;
     [view release];
 }
 
+-(void)viewDidAppear:(BOOL)animated {
+    [self setTitle:@"Lingvo Universal EN-RU"];
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [_idx count];
 }
@@ -46,17 +54,22 @@ NSArray *_idx;
     UITableViewCell *cell = [[UITableViewCell alloc] init];
     NSUInteger index = [indexPath row];
     if (index <= [_idx count]) {
-        id item = [_idx objectAtIndex: index];
-        [[cell textLabel] setText: (NSString *)item];
+        ZTArticle *item = [_idx objectAtIndex: index];
+        [[cell textLabel] setText: [item getName]];
     }
     return [cell autorelease];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    UIViewController *translateView = [[ZTTranslateViewController alloc] init];
-    //[translateView setTitle: (NSString *) [indexPath row]];
-    [[self navigationController] pushViewController:translateView animated:YES];
-    [translateView release];
+    NSUInteger index = [indexPath row];
+    if (index >= [_idx count]) return;
+    
+    ZTArticle *art = [_idx objectAtIndex:index];
+    if (_translateView == nil) {
+        _translateView = [[ZTTranslateViewController alloc] initWithArticle:art];
+    }
+    [self setTitle:@"Search"];
+    [[self navigationController] pushViewController:_translateView animated:YES];
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
@@ -69,6 +82,7 @@ NSArray *_idx;
     else _idx = [[NSArray alloc] init];
     
     [_table reloadData];
+    [searchBar resignFirstResponder];
 }
 
 /*- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
@@ -78,6 +92,8 @@ NSArray *_idx;
 - (void)dealloc {
     [_table release];
     [_idx release];
+    if (_translateView != nil)
+        [_translateView release];
     
     [super dealloc];
 }

@@ -10,18 +10,43 @@
 
 @implementation ZTTranslateViewController 
 
+UITextView *_contentView;
+
+-(id)initWithArticle:(ZTArticle *)art {
+    self = [super init];
+    if (self) {
+        _art = art;
+        [_art retain];
+    }
+    return self;
+}
+
 - (void)loadView {
     [super loadView];
     
-    UIView *view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-    UITextView * textView = [[UITextView alloc] initWithFrame: [view frame]];
-    [view addSubview:textView];
-    [self setView: view];
-
-    //TODO: need implementation
+    [self setTitle: [_art getName]];
     
-    [textView release];
+    UIView *view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    _contentView = [[UITextView alloc] initWithFrame: [view frame]];
+    [view addSubview:_contentView];
+    [self setView: view];
+    
     [view release];
+}
+
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+    NSString * content = [DICTIONARYSERVICE getContent:_art];
+    [_contentView setText:content];
+}
+
+-(void)dealloc {
+    if (_contentView != nil) 
+        [_contentView release];
+    [_art release];
+    
+    [super dealloc];
 }
 
 @end

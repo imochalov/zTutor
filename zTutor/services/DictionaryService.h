@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "IService.h"
+#import "Article.h"
 
 
 @interface ZTDictionaryService : NSObject<IZTService> {
 
 }
+
+-(NSString *)getContent:(ZTArticle *)article;
 
 @end

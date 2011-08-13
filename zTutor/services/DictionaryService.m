@@ -14,4 +14,9 @@
     
 }
 
+-(NSString *)getContent:(ZTArticle *)article {
+    //TODO:need implementation
+    return @"test content";
+}
+
 @end

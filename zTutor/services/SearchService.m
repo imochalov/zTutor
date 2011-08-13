@@ -8,6 +8,8 @@
 
 #import "SearchService.h"
 
+#import "Article.h"
+
 
 @implementation ZTSearchService
 
@@ -19,30 +21,37 @@ NSMutableArray *_index;
     
     //TODO: need load idx file;
     
-    NSString *idxPath = [DOCUMENTS stringByAppendingPathComponent:@"LingvoUniversalER.idx"];
+    //NSString *idxPath = [DOCUMENTS stringByAppendingPathComponent:@"LingvoUniversalER.idx"];
+    NSString *idxPath = [[NSBundle mainBundle] pathForResource:@"LingvoUniversalER.idx" ofType:nil];
     NSFileHandle * fileHandle = [NSFileHandle fileHandleForReadingAtPath:idxPath];
-    NSData * buffer = nil;
-    NSMutableString *name = [[NSMutableString alloc] initWithCapacity:10];
-    while ((buffer = [fileHandle readDataOfLength:1])) {
-        Byte c;
-        [buffer getBytes:&c range: NSMakeRange(0, 1)];
-        if (c  == '\0') {
-            [_index addObject: name];
-            [name release];
-            name = [[NSMutableString alloc] initWithCapacity:10];
-            
-            [fileHandle readDataOfLength:8];
-        }
-        else {
-            NSString* myString = [[NSString alloc] initWithBytes:[buffer bytes] 
-                                                          length:[buffer length] 
+    
+    
+    NSData *buffer = [fileHandle readDataToEndOfFile];
+    int length = [buffer length];
+    char *bytes = malloc(sizeof(char) * length);
+    char *nameBytes = bytes;
+    [buffer getBytes:bytes];
+    for(int i = 0; i < length; i++) {
+        char c = *bytes;
+        if (c == '\0') {
+            int nameLength = bytes - nameBytes;
+            NSString *myString = [[NSString alloc] initWithBytes:nameBytes 
+                                                          length:nameLength 
                                                         encoding:NSUTF8StringEncoding];
-            [name appendString:myString];
+            nameBytes += nameLength + 1;
+            NSData *dicPoint = [[NSData alloc] initWithBytes:nameBytes length:8];
+            [_index addObject:[[ZTArticle alloc] initWithLabel:myString :dicPoint]];
             [myString release];
+            [dicPoint release];
+            
+            i += 8;
+            bytes += 8;
+            //nameBytes = bytes;
+            nameBytes += 8;
         }
-        
+        bytes++;
     }
-    [name release];
+    //free(bytes);
 }
 
 - (void)launch {
@@ -52,10 +61,18 @@ NSMutableArray *_index;
 
 - (NSArray *)startWith: (NSString *)sample {
     NSMutableArray *res = [[NSMutableArray alloc]initWithCapacity:10];
-    for(id item in _index)
-        if ([item startWith:sample])
+    for(ZTArticle *item in _index)
+        if ([[item getName] hasPrefix:sample])
             [res addObject:item];
     return [res autorelease];
+}
+
+-(void)dealloc {
+    for(ZTArticle *item in _index)
+        [item release];
+    [_index release];
+    
+    [super dealloc];
 }
 
 

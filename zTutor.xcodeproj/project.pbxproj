@@ -14,6 +14,7 @@
 		678586BB13F6A2F600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
 		678586D013F6A7C600A7155A /* ServiceManagerTestCase.h in Sources */ = {isa = PBXBuildFile; fileRef = 678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */; };
 		678586D113F6A7C600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
+		67F409CE13F70E4D00DAB1DE /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F409CD13F70E4D00DAB1DE /* Article.m */; };
 		67F97A0613F5D947003C012C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0513F5D947003C012C /* UIKit.framework */; };
 		67F97A0813F5D947003C012C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0713F5D947003C012C /* Foundation.framework */; };
 		67F97A0A13F5D947003C012C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0913F5D947003C012C /* CoreGraphics.framework */; };
@@ -57,6 +58,8 @@
 		678586B713F69EE700A7155A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManagerTestCase.h; sourceTree = "<group>"; };
 		678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManagerTestCase.m; sourceTree = "<group>"; };
+		67F409CC13F70E4D00DAB1DE /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		67F409CD13F70E4D00DAB1DE /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
 		67F97A0113F5D947003C012C /* zTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F97A0513F5D947003C012C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67F97A0713F5D947003C012C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -171,6 +174,8 @@
 				67F97A6B13F5D9EC003C012C /* zTutor-Prefix.pch */,
 				67F97A6C13F5D9EC003C012C /* zTutorAppDelegate.h */,
 				67F97A6D13F5D9EC003C012C /* zTutorAppDelegate.m */,
+				67F409CC13F70E4D00DAB1DE /* Article.h */,
+				67F409CD13F70E4D00DAB1DE /* Article.m */,
 			);
 			path = zTutor;
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 				67F97A7E13F5D9EC003C012C /* zTutorAppDelegate.m in Sources */,
 				678586AC13F6835400A7155A /* ServiceManager.m in Sources */,
 				678586BB13F6A2F600A7155A /* ServiceManagerTestCase.m in Sources */,
+				67F409CE13F70E4D00DAB1DE /* Article.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

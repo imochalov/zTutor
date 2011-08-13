@@ -8,6 +8,6 @@
 
 #import "LearnViewController.h"
 
-@implementation ZTLearnViewController 
+@implementation ZTLearnViewController
 
 @end
