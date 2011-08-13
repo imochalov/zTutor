@@ -12,15 +12,12 @@
 @implementation ZTSearchViewController
 
 UITableView *_table;
-NSMutableArray *_idx;
+NSArray *_idx;
 
 - (void)loadView {
     [super loadView];
     
-    _idx = [[NSMutableArray alloc] init];
-    [_idx addObject:@"test"];
-    [_idx addObject:@"test1"];
-    [_idx addObject:@"test2"];
+    _idx = [[NSArray alloc] init];
     
     UIView *view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
     
@@ -42,13 +39,16 @@ NSMutableArray *_idx;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return [_idx count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [[UITableViewCell alloc] init];
-    id item = [_idx objectAtIndex: [indexPath row]];
-    [[cell textLabel] setText: (NSString *)item];
+    NSUInteger index = [indexPath row];
+    if (index <= [_idx count]) {
+        id item = [_idx objectAtIndex: index];
+        [[cell textLabel] setText: (NSString *)item];
+    }
     return [cell autorelease];
 }
 
@@ -60,17 +60,20 @@ NSMutableArray *_idx;
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
-    [searchBar setText:@"my"];
-}
-
-- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
-    [_idx removeAllObjects];
-    [_idx addObject:[searchText stringByAppendingString:@" 1"]];
-    [_idx addObject:[searchText stringByAppendingString:@" 2"]];
-    [_idx addObject:[searchText stringByAppendingString:@" 3"]];
+    [_idx release];
+    NSString *searchText = [searchBar text];
+    if (searchText != nil && [searchText length] > 0) {
+        _idx = [SEARCHSERVICE startWith: searchText];
+        [_idx retain];
+    }
+    else _idx = [[NSArray alloc] init];
     
     [_table reloadData];
 }
+
+/*- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+    
+}*/
 
 - (void)dealloc {
     [_table release];

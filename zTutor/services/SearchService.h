@@ -14,4 +14,6 @@
 
 }
 
+- (NSArray *)startWith: (NSString *)sample;
+
 @end

@@ -2,42 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4997a3af-263c-4ec2-9f3e-d634e511091a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutor/resources/LingvoUniversalER.idx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutor/services/IService.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutor/services/ServiceManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutor/services/ServiceManager.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutorTests/ServiceManagerTestCase.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutorTests/ServiceManagerTestCase.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/.idea/xcode.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/.idea/zTutor.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/services/BaseService.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/services/BaseService.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutorTests/zTutorTests.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutorTests/zTutorTests.m" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/zTutor.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/main.m" afterPath="$PROJECT_DIR$/zTutor/main.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/CardService.h" afterPath="$PROJECT_DIR$/zTutor/services/CardService.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/CardService.m" afterPath="$PROJECT_DIR$/zTutor/services/CardService.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/DictionaryService.h" afterPath="$PROJECT_DIR$/zTutor/services/DictionaryService.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/DictionaryService.m" afterPath="$PROJECT_DIR$/zTutor/services/DictionaryService.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/NetworkService.h" afterPath="$PROJECT_DIR$/zTutor/services/NetworkService.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/NetworkService.m" afterPath="$PROJECT_DIR$/zTutor/services/NetworkService.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/ScheduleService.h" afterPath="$PROJECT_DIR$/zTutor/services/ScheduleService.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/ScheduleService.m" afterPath="$PROJECT_DIR$/zTutor/services/ScheduleService.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/SearchService.h" afterPath="$PROJECT_DIR$/zTutor/services/SearchService.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/SearchService.m" afterPath="$PROJECT_DIR$/zTutor/services/SearchService.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/SynchronizationService.h" afterPath="$PROJECT_DIR$/zTutor/services/SynchronizationService.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/SynchronizationService.m" afterPath="$PROJECT_DIR$/zTutor/services/SynchronizationService.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/viewControllers/TranslateViewController.m" afterPath="$PROJECT_DIR$/zTutor/viewControllers/TranslateViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/zTutor-Info.plist" afterPath="$PROJECT_DIR$/zTutor/zTutor-Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/zTutor-Prefix.pch" afterPath="$PROJECT_DIR$/zTutor/zTutor-Prefix.pch" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/FirstViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/FirstViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/SecondViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/SecondViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/en.lproj/FirstView.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/en.lproj/MainWindow.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/en.lproj/SecondView.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/FirstViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/FirstViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/SecondViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/SecondViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/en.lproj/FirstView.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/en.lproj/MainWindow.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/en.lproj/SecondView.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/zTutor-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/zTutor-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/zTutorAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/zTutorAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutorTests/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutorTests/zTutorTests-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutorTests/zTutorTests-Prefix.pch" afterPath="" />
     </list>
     <ignored path="zTutor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -168,15 +161,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="118" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="912" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="912" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="116" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="113" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="zTutor" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -266,7 +259,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.4936306" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15286624" sideWeight="0.3727422" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32961783" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.0" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.50318474" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3234811" sideWeight="0.48407644" order="2" side_tool="false" content_ui="tabs" />
