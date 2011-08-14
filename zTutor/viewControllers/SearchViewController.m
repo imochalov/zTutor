@@ -14,7 +14,7 @@
 
 UITableView *_table;
 NSArray *_idx;
-UIViewController *_translateView;
+ZTTranslateViewController *_translateView;
 
 - (void)loadView {
     [super loadView];
@@ -66,8 +66,9 @@ UIViewController *_translateView;
     
     ZTArticle *art = [_idx objectAtIndex:index];
     if (_translateView == nil) {
-        _translateView = [[ZTTranslateViewController alloc] initWithArticle:art];
+        _translateView = [[ZTTranslateViewController alloc] init];
     }
+    [_translateView setArticle:art];
     [self setTitle:@"Search"];
     [[self navigationController] pushViewController:_translateView animated:YES];
 }

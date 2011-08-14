@@ -10,10 +10,8 @@
 #import "Article.h"
 
 @interface ZTTranslateViewController : UIViewController {
-@private
-    ZTArticle *_art;
 }
 
--(id)initWithArticle: (ZTArticle *)art;
+@property (retain) ZTArticle *Article;
 
 @end

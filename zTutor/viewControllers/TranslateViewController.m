@@ -12,19 +12,10 @@
 
 UITextView *_contentView;
 
--(id)initWithArticle:(ZTArticle *)art {
-    self = [super init];
-    if (self) {
-        _art = art;
-        [_art retain];
-    }
-    return self;
-}
+@synthesize Article;
 
 - (void)loadView {
     [super loadView];
-    
-    [self setTitle: [_art getName]];
     
     UIView *view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
     _contentView = [[UITextView alloc] initWithFrame: [view frame]];
@@ -37,14 +28,16 @@ UITextView *_contentView;
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    NSString * content = [DICTIONARYSERVICE getContent:_art];
+    [self setTitle: [Article getName]];
+    
+    NSString * content = [DICTIONARYSERVICE getContent:Article];
     [_contentView setText:content];
 }
 
 -(void)dealloc {
     if (_contentView != nil) 
         [_contentView release];
-    [_art release];
+    [Article release];
     
     [super dealloc];
 }
