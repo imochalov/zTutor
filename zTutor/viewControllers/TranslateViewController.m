@@ -34,8 +34,8 @@ UITextView *_contentView;
     [view release];
 }
 
--(void)viewDidLoad {
-    [super viewDidLoad];
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     
     NSString * content = [DICTIONARYSERVICE getContent:_art];
     [_contentView setText:content];

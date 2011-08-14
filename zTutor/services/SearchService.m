@@ -23,9 +23,7 @@ NSMutableArray *_index;
     
     //NSString *idxPath = [DOCUMENTS stringByAppendingPathComponent:@"LingvoUniversalER.idx"];
     NSString *idxPath = [[NSBundle mainBundle] pathForResource:@"LingvoUniversalER.idx" ofType:nil];
-    NSFileHandle * fileHandle = [NSFileHandle fileHandleForReadingAtPath:idxPath];
-    
-    
+    NSFileHandle *fileHandle = [NSFileHandle fileHandleForReadingAtPath:idxPath];
     NSData *buffer = [fileHandle readDataToEndOfFile];
     int length = [buffer length];
     char *bytes = malloc(sizeof(char) * length);
@@ -39,10 +37,8 @@ NSMutableArray *_index;
                                                           length:nameLength 
                                                         encoding:NSUTF8StringEncoding];
             nameBytes += nameLength + 1;
-            NSData *dicPoint = [[NSData alloc] initWithBytes:nameBytes length:8];
-            [_index addObject:[[ZTArticle alloc] initWithLabel:myString :dicPoint]];
+            [_index addObject:[[ZTArticle alloc] initWithLabel:myString :nameBytes]];
             [myString release];
-            [dicPoint release];
             
             i += 8;
             bytes += 8;
@@ -52,6 +48,7 @@ NSMutableArray *_index;
         bytes++;
     }
     //free(bytes);
+    [fileHandle closeFile];
 }
 
 - (void)launch {

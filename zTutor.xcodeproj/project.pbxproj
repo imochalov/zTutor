@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6720DEC713F74BB500F43CA2 /* LingvoUniversalER.dict.ungz in Resources */ = {isa = PBXBuildFile; fileRef = 6720DEC613F74BB500F43CA2 /* LingvoUniversalER.dict.ungz */; };
 		678586AC13F6835400A7155A /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586AB13F6835400A7155A /* ServiceManager.m */; };
 		678586B413F69B1100A7155A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 678586AE13F69B1100A7155A /* InfoPlist.strings */; };
 		678586B513F69B1100A7155A /* zTutorTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 678586B013F69B1100A7155A /* zTutorTests-Info.plist */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6720DEC613F74BB500F43CA2 /* LingvoUniversalER.dict.ungz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LingvoUniversalER.dict.ungz; sourceTree = "<group>"; };
 		678586AA13F6835400A7155A /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManager.h; sourceTree = "<group>"; };
 		678586AB13F6835400A7155A /* ServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManager.m; sourceTree = "<group>"; };
 		678586AF13F69B1100A7155A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		67F97A5013F5D9EC003C012C /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				6720DEC613F74BB500F43CA2 /* LingvoUniversalER.dict.ungz */,
 				67F97A5113F5D9EC003C012C /* LingvoUniversalER.idx */,
 				67F97A5213F5D9EC003C012C /* Search.png */,
 				67F97A5313F5D9EC003C012C /* Tag.png */,
@@ -299,6 +302,7 @@
 				67F97A7D13F5D9EC003C012C /* zTutor-Info.plist in Resources */,
 				678586B413F69B1100A7155A /* InfoPlist.strings in Resources */,
 				678586B513F69B1100A7155A /* zTutorTests-Info.plist in Resources */,
+				6720DEC713F74BB500F43CA2 /* LingvoUniversalER.dict.ungz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

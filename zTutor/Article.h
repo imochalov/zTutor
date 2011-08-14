@@ -12,10 +12,10 @@
 @interface ZTArticle : NSObject {
 @private 
     NSString *_label;
-    NSData *_dicPoint;
+    char _dicPoint[8];
 }
 
--(id)initWithLabel:(NSString *)label: (NSData *)dicPoint;
+-(id)initWithLabel:(NSString *)label: (char *)dicPoint;
 
 -(NSString *)getName;
 
