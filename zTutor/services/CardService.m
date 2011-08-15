@@ -14,4 +14,9 @@
 
 }
 
+-(ZTStatistics *)getStatistics {
+    //TODO: need implementation
+    return [[[ZTStatistics alloc] initWithValues: 100: 100] autorelease];
+}
+
 @end

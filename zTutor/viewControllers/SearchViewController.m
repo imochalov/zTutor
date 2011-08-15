@@ -25,14 +25,14 @@ ZTTranslateViewController *_translateView;
     
     UIView *view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
     
-    UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, view.frame.size.width, 36)];
+    UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, view.frame.size.width, 45)];
     [searchBar setAutocorrectionType: UITextAutocorrectionTypeNo];
     [view addSubview:searchBar];
     [searchBar setDelegate: self];
     [searchBar release];
     
     _table = [[UITableView alloc] 
-            initWithFrame:CGRectMake(0, 36, view.frame.size.width, view.frame.size.height - 36) 
+            initWithFrame:CGRectMake(0, 45, view.frame.size.width, view.frame.size.height - 45) 
             style:UITableViewStylePlain];
     [_table setDataSource: self];
     [_table setDelegate: self];

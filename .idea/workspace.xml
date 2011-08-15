@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4997a3af-263c-4ec2-9f3e-d634e511091a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/FirstViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/FirstViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/SecondViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/SecondViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/en.lproj/FirstView.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/en.lproj/MainWindow.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/en.lproj/SecondView.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor-Prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/FirstViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/FirstViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/SecondViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/SecondViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/en.lproj/FirstView.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/en.lproj/MainWindow.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/en.lproj/SecondView.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/zTutor-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/zTutor-Prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/zTutorAppDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutor/zTutor/zTutorAppDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutorTests/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutorTests/zTutorTests-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/zTutorTests/zTutorTests-Prefix.pch" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutor/Statistics.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutor/Statistics.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor.xcodeproj/project.xcworkspace/xcuserdata/imochalov.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/zTutor.xcodeproj/project.xcworkspace/xcuserdata/imochalov.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/zTutor.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/CardService.h" afterPath="$PROJECT_DIR$/zTutor/services/CardService.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/CardService.m" afterPath="$PROJECT_DIR$/zTutor/services/CardService.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/viewControllers/LearnViewController.m" afterPath="$PROJECT_DIR$/zTutor/viewControllers/LearnViewController.m" />
     </list>
     <ignored path="zTutor.iws" />
     <ignored path=".idea/workspace.xml" />

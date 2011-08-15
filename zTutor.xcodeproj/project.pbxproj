@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6716428113F98FB900C95F80 /* Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716428013F98FB900C95F80 /* Statistics.m */; };
 		6720DEC713F74BB500F43CA2 /* LingvoUniversalER.dict.ungz in Resources */ = {isa = PBXBuildFile; fileRef = 6720DEC613F74BB500F43CA2 /* LingvoUniversalER.dict.ungz */; };
 		678586AC13F6835400A7155A /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586AB13F6835400A7155A /* ServiceManager.m */; };
 		678586B413F69B1100A7155A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 678586AE13F69B1100A7155A /* InfoPlist.strings */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6716427F13F98FB900C95F80 /* Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statistics.h; sourceTree = "<group>"; };
+		6716428013F98FB900C95F80 /* Statistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Statistics.m; sourceTree = "<group>"; };
 		6720DEC613F74BB500F43CA2 /* LingvoUniversalER.dict.ungz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LingvoUniversalER.dict.ungz; sourceTree = "<group>"; };
 		678586AA13F6835400A7155A /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManager.h; sourceTree = "<group>"; };
 		678586AB13F6835400A7155A /* ServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManager.m; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 				67F97A6D13F5D9EC003C012C /* zTutorAppDelegate.m */,
 				67F409CC13F70E4D00DAB1DE /* Article.h */,
 				67F409CD13F70E4D00DAB1DE /* Article.m */,
+				6716427F13F98FB900C95F80 /* Statistics.h */,
+				6716428013F98FB900C95F80 /* Statistics.m */,
 			);
 			path = zTutor;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 				678586AC13F6835400A7155A /* ServiceManager.m in Sources */,
 				678586BB13F6A2F600A7155A /* ServiceManagerTestCase.m in Sources */,
 				67F409CE13F70E4D00DAB1DE /* Article.m in Sources */,
+				6716428113F98FB900C95F80 /* Statistics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
