@@ -52,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		670B533613FAF1B40062FC34 /* ICard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICard.h; path = cards/ICard.h; sourceTree = "<group>"; };
+		670B533713FAF3400062FC34 /* ICardPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICardPacket.h; path = cards/ICardPacket.h; sourceTree = "<group>"; };
+		670B533813FAF3910062FC34 /* ICardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICardView.h; path = cards/ICardView.h; sourceTree = "<group>"; };
 		6716427F13F98FB900C95F80 /* Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statistics.h; sourceTree = "<group>"; };
 		6716428013F98FB900C95F80 /* Statistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Statistics.m; sourceTree = "<group>"; };
 		6720DEC613F74BB500F43CA2 /* LingvoUniversalER.dict.ungz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LingvoUniversalER.dict.ungz; sourceTree = "<group>"; };
@@ -125,6 +128,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		670B533413FAF14A0062FC34 /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				670B533813FAF3910062FC34 /* ICardView.h */,
+				670B533713FAF3400062FC34 /* ICardPacket.h */,
+				670B533613FAF1B40062FC34 /* ICard.h */,
+			);
+			name = cards;
+			sourceTree = "<group>";
+		};
 		678586AD13F69B1100A7155A /* zTutorTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +183,7 @@
 		67F97A4C13F5D9EC003C012C /* zTutor */ = {
 			isa = PBXGroup;
 			children = (
+				670B533413FAF14A0062FC34 /* cards */,
 				67F97A4D13F5D9EC003C012C /* InfoPlist.strings */,
 				67F97A4F13F5D9EC003C012C /* main.m */,
 				67F97A5013F5D9EC003C012C /* resources */,
