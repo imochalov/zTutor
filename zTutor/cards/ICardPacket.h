@@ -8,6 +8,6 @@
 
 @protocol IZTCardPacket
 
-(NSEnumerator *)getCards;
+@property(nonatomic,readonly) NSEnumerator *cards;
 
 @end

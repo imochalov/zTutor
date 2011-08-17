@@ -8,7 +8,7 @@
 
 @protocol IZTCard
 
--(NSString *)getWord;
--(NSEnumerator *)getTranslate;
+@property(nonatomic,readonly) NSString *word;
+@property(nonatomic,readonly) NSEnumerator *translate;
 
 @end
