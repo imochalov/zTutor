@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6713EF7613FC5651007F8A05 /* NewCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713EF7013FC5651007F8A05 /* NewCardView.m */; };
+		6713EF7713FC5651007F8A05 /* GrammarViewCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713EF7113FC5651007F8A05 /* GrammarViewCard.m */; };
+		6713EF7813FC5651007F8A05 /* SoundCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713EF7213FC5651007F8A05 /* SoundCardView.m */; };
+		6713EF7913FC5651007F8A05 /* ImageStackedCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713EF7313FC5651007F8A05 /* ImageStackedCardView.m */; };
+		6713EF7A13FC5651007F8A05 /* ImageCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713EF7413FC5651007F8A05 /* ImageCardView.m */; };
+		6713EF7B13FC5651007F8A05 /* CrossCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713EF7513FC5651007F8A05 /* CrossCardView.m */; };
 		6716428113F98FB900C95F80 /* Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716428013F98FB900C95F80 /* Statistics.m */; };
 		6720DEC713F74BB500F43CA2 /* LingvoUniversalER.dict.ungz in Resources */ = {isa = PBXBuildFile; fileRef = 6720DEC613F74BB500F43CA2 /* LingvoUniversalER.dict.ungz */; };
 		678586AC13F6835400A7155A /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586AB13F6835400A7155A /* ServiceManager.m */; };
@@ -17,12 +23,6 @@
 		678586D013F6A7C600A7155A /* ServiceManagerTestCase.h in Sources */ = {isa = PBXBuildFile; fileRef = 678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */; };
 		678586D113F6A7C600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
 		67F2C54613FC51C000853FAD /* StackedCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2C54413FC51C000853FAD /* StackedCardView.m */; };
-		67F2C54913FC51D600853FAD /* CrossCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2C54813FC51D600853FAD /* CrossCardView.m */; };
-		67F2C54C13FC51F600853FAD /* ImageCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2C54B13FC51F600853FAD /* ImageCardView.m */; };
-		67F2C54F13FC520800853FAD /* ImageStackedCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2C54E13FC520800853FAD /* ImageStackedCardView.m */; };
-		67F2C55213FC522F00853FAD /* SoundCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2C55113FC522F00853FAD /* SoundCardView.m */; };
-		67F2C55513FC526D00853FAD /* GrammarViewCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2C55413FC526D00853FAD /* GrammarViewCard.m */; };
-		67F2C55813FC527A00853FAD /* NewCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2C55713FC527A00853FAD /* NewCardView.m */; };
 		67F409CE13F70E4D00DAB1DE /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F409CD13F70E4D00DAB1DE /* Article.m */; };
 		67F97A0613F5D947003C012C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0513F5D947003C012C /* UIKit.framework */; };
 		67F97A0813F5D947003C012C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0713F5D947003C012C /* Foundation.framework */; };
@@ -62,6 +62,18 @@
 		670B533613FAF1B40062FC34 /* ICard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICard.h; path = cards/ICard.h; sourceTree = "<group>"; };
 		670B533713FAF3400062FC34 /* ICardPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICardPacket.h; path = cards/ICardPacket.h; sourceTree = "<group>"; };
 		670B533813FAF3910062FC34 /* ICardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICardView.h; path = cards/ICardView.h; sourceTree = "<group>"; };
+		6713EF6A13FC5651007F8A05 /* GrammarViewCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GrammarViewCard.h; path = cards/GrammarViewCard.h; sourceTree = "<group>"; };
+		6713EF6B13FC5651007F8A05 /* SoundCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundCardView.h; path = cards/SoundCardView.h; sourceTree = "<group>"; };
+		6713EF6C13FC5651007F8A05 /* ImageStackedCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageStackedCardView.h; path = cards/ImageStackedCardView.h; sourceTree = "<group>"; };
+		6713EF6D13FC5651007F8A05 /* ImageCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageCardView.h; path = cards/ImageCardView.h; sourceTree = "<group>"; };
+		6713EF6E13FC5651007F8A05 /* CrossCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrossCardView.h; path = cards/CrossCardView.h; sourceTree = "<group>"; };
+		6713EF6F13FC5651007F8A05 /* NewCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewCardView.h; path = cards/NewCardView.h; sourceTree = "<group>"; };
+		6713EF7013FC5651007F8A05 /* NewCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewCardView.m; path = cards/NewCardView.m; sourceTree = "<group>"; };
+		6713EF7113FC5651007F8A05 /* GrammarViewCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GrammarViewCard.m; path = cards/GrammarViewCard.m; sourceTree = "<group>"; };
+		6713EF7213FC5651007F8A05 /* SoundCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundCardView.m; path = cards/SoundCardView.m; sourceTree = "<group>"; };
+		6713EF7313FC5651007F8A05 /* ImageStackedCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageStackedCardView.m; path = cards/ImageStackedCardView.m; sourceTree = "<group>"; };
+		6713EF7413FC5651007F8A05 /* ImageCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageCardView.m; path = cards/ImageCardView.m; sourceTree = "<group>"; };
+		6713EF7513FC5651007F8A05 /* CrossCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrossCardView.m; path = cards/CrossCardView.m; sourceTree = "<group>"; };
 		6716427F13F98FB900C95F80 /* Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statistics.h; sourceTree = "<group>"; };
 		6716428013F98FB900C95F80 /* Statistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Statistics.m; sourceTree = "<group>"; };
 		6720DEC613F74BB500F43CA2 /* LingvoUniversalER.dict.ungz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LingvoUniversalER.dict.ungz; sourceTree = "<group>"; };
@@ -75,18 +87,6 @@
 		678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManagerTestCase.m; sourceTree = "<group>"; };
 		67F2C54413FC51C000853FAD /* StackedCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackedCardView.m; path = cards/StackedCardView.m; sourceTree = "<group>"; };
 		67F2C54513FC51C000853FAD /* StackedCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackedCardView.h; path = cards/StackedCardView.h; sourceTree = "<group>"; };
-		67F2C54713FC51D600853FAD /* CrossCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossCardView.h; sourceTree = "<group>"; };
-		67F2C54813FC51D600853FAD /* CrossCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossCardView.m; sourceTree = "<group>"; };
-		67F2C54A13FC51F600853FAD /* ImageCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCardView.h; sourceTree = "<group>"; };
-		67F2C54B13FC51F600853FAD /* ImageCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCardView.m; sourceTree = "<group>"; };
-		67F2C54D13FC520800853FAD /* ImageStackedCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageStackedCardView.h; sourceTree = "<group>"; };
-		67F2C54E13FC520800853FAD /* ImageStackedCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageStackedCardView.m; sourceTree = "<group>"; };
-		67F2C55013FC522F00853FAD /* SoundCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundCardView.h; sourceTree = "<group>"; };
-		67F2C55113FC522F00853FAD /* SoundCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundCardView.m; sourceTree = "<group>"; };
-		67F2C55313FC526C00853FAD /* GrammarViewCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrammarViewCard.h; sourceTree = "<group>"; };
-		67F2C55413FC526D00853FAD /* GrammarViewCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrammarViewCard.m; sourceTree = "<group>"; };
-		67F2C55613FC527A00853FAD /* NewCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCardView.h; sourceTree = "<group>"; };
-		67F2C55713FC527A00853FAD /* NewCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCardView.m; sourceTree = "<group>"; };
 		67F409CC13F70E4D00DAB1DE /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		67F409CD13F70E4D00DAB1DE /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
 		67F97A0113F5D947003C012C /* zTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,23 +152,23 @@
 		670B533413FAF14A0062FC34 /* cards */ = {
 			isa = PBXGroup;
 			children = (
+				6713EF6A13FC5651007F8A05 /* GrammarViewCard.h */,
+				6713EF6B13FC5651007F8A05 /* SoundCardView.h */,
+				6713EF6C13FC5651007F8A05 /* ImageStackedCardView.h */,
+				6713EF6D13FC5651007F8A05 /* ImageCardView.h */,
+				6713EF6E13FC5651007F8A05 /* CrossCardView.h */,
+				6713EF6F13FC5651007F8A05 /* NewCardView.h */,
+				6713EF7013FC5651007F8A05 /* NewCardView.m */,
+				6713EF7113FC5651007F8A05 /* GrammarViewCard.m */,
+				6713EF7213FC5651007F8A05 /* SoundCardView.m */,
+				6713EF7313FC5651007F8A05 /* ImageStackedCardView.m */,
+				6713EF7413FC5651007F8A05 /* ImageCardView.m */,
+				6713EF7513FC5651007F8A05 /* CrossCardView.m */,
 				67F2C54413FC51C000853FAD /* StackedCardView.m */,
 				67F2C54513FC51C000853FAD /* StackedCardView.h */,
 				670B533813FAF3910062FC34 /* ICardView.h */,
 				670B533713FAF3400062FC34 /* ICardPacket.h */,
 				670B533613FAF1B40062FC34 /* ICard.h */,
-				67F2C54713FC51D600853FAD /* CrossCardView.h */,
-				67F2C54813FC51D600853FAD /* CrossCardView.m */,
-				67F2C54A13FC51F600853FAD /* ImageCardView.h */,
-				67F2C54B13FC51F600853FAD /* ImageCardView.m */,
-				67F2C54D13FC520800853FAD /* ImageStackedCardView.h */,
-				67F2C54E13FC520800853FAD /* ImageStackedCardView.m */,
-				67F2C55013FC522F00853FAD /* SoundCardView.h */,
-				67F2C55113FC522F00853FAD /* SoundCardView.m */,
-				67F2C55313FC526C00853FAD /* GrammarViewCard.h */,
-				67F2C55413FC526D00853FAD /* GrammarViewCard.m */,
-				67F2C55613FC527A00853FAD /* NewCardView.h */,
-				67F2C55713FC527A00853FAD /* NewCardView.m */,
 			);
 			name = cards;
 			sourceTree = "<group>";
@@ -406,12 +406,12 @@
 				67F409CE13F70E4D00DAB1DE /* Article.m in Sources */,
 				6716428113F98FB900C95F80 /* Statistics.m in Sources */,
 				67F2C54613FC51C000853FAD /* StackedCardView.m in Sources */,
-				67F2C54913FC51D600853FAD /* CrossCardView.m in Sources */,
-				67F2C54C13FC51F600853FAD /* ImageCardView.m in Sources */,
-				67F2C54F13FC520800853FAD /* ImageStackedCardView.m in Sources */,
-				67F2C55213FC522F00853FAD /* SoundCardView.m in Sources */,
-				67F2C55513FC526D00853FAD /* GrammarViewCard.m in Sources */,
-				67F2C55813FC527A00853FAD /* NewCardView.m in Sources */,
+				6713EF7613FC5651007F8A05 /* NewCardView.m in Sources */,
+				6713EF7713FC5651007F8A05 /* GrammarViewCard.m in Sources */,
+				6713EF7813FC5651007F8A05 /* SoundCardView.m in Sources */,
+				6713EF7913FC5651007F8A05 /* ImageStackedCardView.m in Sources */,
+				6713EF7A13FC5651007F8A05 /* ImageCardView.m in Sources */,
+				6713EF7B13FC5651007F8A05 /* CrossCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
