@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ICardView.h"
 
 
-@interface ZTLearnViewController : UIViewController {
+@interface ZTLearnViewController : UIViewController<IZTCardViewDelegate> {
 
 }
 

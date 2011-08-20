@@ -6,16 +6,16 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "ICardPacket.h"
-#import "ICard.h"
+#import "CardPacket.h"
+#import "Card.h"
 
 @protocol IZTCardViewDelegate <NSObject>
 
 -(void)complete:(BOOL)success;
 
-@property(nonatomic,readonly) id<IZTCardPacket> *packet;
+@property(nonatomic,readonly) ZTCardPacket *packet;
 
-@property(nonatomic,readonly) id<IZTCard> *card;
+@property(nonatomic,readonly) ZTCard *card;
 
 @end
 

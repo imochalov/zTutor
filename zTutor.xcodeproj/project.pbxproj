@@ -22,6 +22,8 @@
 		678586BB13F6A2F600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
 		678586D013F6A7C600A7155A /* ServiceManagerTestCase.h in Sources */ = {isa = PBXBuildFile; fileRef = 678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */; };
 		678586D113F6A7C600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
+		67EC911214004F6800028206 /* StatisticsCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC910E14004F6800028206 /* StatisticsCardView.m */; };
+		67EC911314004F6800028206 /* CardCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC911114004F6800028206 /* CardCourse.m */; };
 		67F2C54613FC51C000853FAD /* StackedCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2C54413FC51C000853FAD /* StackedCardView.m */; };
 		67F409CE13F70E4D00DAB1DE /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F409CD13F70E4D00DAB1DE /* Article.m */; };
 		67F97A0613F5D947003C012C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0513F5D947003C012C /* UIKit.framework */; };
@@ -59,8 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		670B533613FAF1B40062FC34 /* ICard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICard.h; path = cards/ICard.h; sourceTree = "<group>"; };
-		670B533713FAF3400062FC34 /* ICardPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICardPacket.h; path = cards/ICardPacket.h; sourceTree = "<group>"; };
+		670B533613FAF1B40062FC34 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = cards/Card.h; sourceTree = "<group>"; };
+		670B533713FAF3400062FC34 /* CardPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardPacket.h; path = cards/CardPacket.h; sourceTree = "<group>"; };
 		670B533813FAF3910062FC34 /* ICardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICardView.h; path = cards/ICardView.h; sourceTree = "<group>"; };
 		6713EF6A13FC5651007F8A05 /* GrammarViewCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GrammarViewCard.h; path = cards/GrammarViewCard.h; sourceTree = "<group>"; };
 		6713EF6B13FC5651007F8A05 /* SoundCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundCardView.h; path = cards/SoundCardView.h; sourceTree = "<group>"; };
@@ -85,6 +87,10 @@
 		678586B713F69EE700A7155A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManagerTestCase.h; sourceTree = "<group>"; };
 		678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManagerTestCase.m; sourceTree = "<group>"; };
+		67EC910E14004F6800028206 /* StatisticsCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticsCardView.m; path = cards/StatisticsCardView.m; sourceTree = "<group>"; };
+		67EC910F14004F6800028206 /* StatisticsCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatisticsCardView.h; path = cards/StatisticsCardView.h; sourceTree = "<group>"; };
+		67EC911014004F6800028206 /* CardCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardCourse.h; path = cards/CardCourse.h; sourceTree = "<group>"; };
+		67EC911114004F6800028206 /* CardCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardCourse.m; path = cards/CardCourse.m; sourceTree = "<group>"; };
 		67F2C54413FC51C000853FAD /* StackedCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackedCardView.m; path = cards/StackedCardView.m; sourceTree = "<group>"; };
 		67F2C54513FC51C000853FAD /* StackedCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackedCardView.h; path = cards/StackedCardView.h; sourceTree = "<group>"; };
 		67F409CC13F70E4D00DAB1DE /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
@@ -152,6 +158,10 @@
 		670B533413FAF14A0062FC34 /* cards */ = {
 			isa = PBXGroup;
 			children = (
+				67EC910E14004F6800028206 /* StatisticsCardView.m */,
+				67EC910F14004F6800028206 /* StatisticsCardView.h */,
+				67EC911014004F6800028206 /* CardCourse.h */,
+				67EC911114004F6800028206 /* CardCourse.m */,
 				6713EF6A13FC5651007F8A05 /* GrammarViewCard.h */,
 				6713EF7113FC5651007F8A05 /* GrammarViewCard.m */,
 				6713EF6B13FC5651007F8A05 /* SoundCardView.h */,
@@ -167,8 +177,8 @@
 				67F2C54513FC51C000853FAD /* StackedCardView.h */,
 				67F2C54413FC51C000853FAD /* StackedCardView.m */,
 				670B533813FAF3910062FC34 /* ICardView.h */,
-				670B533713FAF3400062FC34 /* ICardPacket.h */,
-				670B533613FAF1B40062FC34 /* ICard.h */,
+				670B533713FAF3400062FC34 /* CardPacket.h */,
+				670B533613FAF1B40062FC34 /* Card.h */,
 			);
 			name = cards;
 			sourceTree = "<group>";
@@ -412,6 +422,8 @@
 				6713EF7913FC5651007F8A05 /* ImageStackedCardView.m in Sources */,
 				6713EF7A13FC5651007F8A05 /* ImageCardView.m in Sources */,
 				6713EF7B13FC5651007F8A05 /* CrossCardView.m in Sources */,
+				67EC911214004F6800028206 /* StatisticsCardView.m in Sources */,
+				67EC911314004F6800028206 /* CardCourse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

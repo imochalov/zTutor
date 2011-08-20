@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "IService.h"
-#import "Statistics.h"
+#import "CardCourse.h"
 
 
 @interface ZTCardService : NSObject<IZTService> {
 
 }
 
--(ZTStatistics *)getStatistics;
+-(ZTCardCourse *)getCourse:(NSString *)name;
 
 @end
