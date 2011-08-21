@@ -10,6 +10,8 @@
 
 }
 
+-(id)initWithTranslate: (NSString *)word translate:(NSString *)translate;
+
 @property(nonatomic,readonly) NSString *word;
 
 @property(nonatomic,readonly) NSEnumerator *translate;

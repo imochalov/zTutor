@@ -31,4 +31,6 @@ typedef enum {
 
 -(BOOL)moveNext:(BOOL)seccessful;
 
+-(void)loadNextCard;
+
 @end

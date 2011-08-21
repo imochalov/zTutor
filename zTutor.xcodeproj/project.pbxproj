@@ -48,6 +48,8 @@
 		67F97A7C13F5D9EC003C012C /* TranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F97A6913F5D9EC003C012C /* TranslateViewController.m */; };
 		67F97A7D13F5D9EC003C012C /* zTutor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67F97A6A13F5D9EC003C012C /* zTutor-Info.plist */; };
 		67F97A7E13F5D9EC003C012C /* zTutorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F97A6D13F5D9EC003C012C /* zTutorAppDelegate.m */; };
+		67F990AE1401100700C563B2 /* CardPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F990AC1401100700C563B2 /* CardPacket.m */; };
+		67F990AF1401100700C563B2 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F990AD1401100700C563B2 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +130,8 @@
 		67F97A6B13F5D9EC003C012C /* zTutor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zTutor-Prefix.pch"; sourceTree = "<group>"; };
 		67F97A6C13F5D9EC003C012C /* zTutorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zTutorAppDelegate.h; sourceTree = "<group>"; };
 		67F97A6D13F5D9EC003C012C /* zTutorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zTutorAppDelegate.m; sourceTree = "<group>"; };
+		67F990AC1401100700C563B2 /* CardPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardPacket.m; path = cards/CardPacket.m; sourceTree = "<group>"; };
+		67F990AD1401100700C563B2 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = cards/Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +182,9 @@
 				67F2C54413FC51C000853FAD /* StackedCardView.m */,
 				670B533813FAF3910062FC34 /* ICardView.h */,
 				670B533713FAF3400062FC34 /* CardPacket.h */,
+				67F990AC1401100700C563B2 /* CardPacket.m */,
 				670B533613FAF1B40062FC34 /* Card.h */,
+				67F990AD1401100700C563B2 /* Card.m */,
 			);
 			name = cards;
 			sourceTree = "<group>";
@@ -424,6 +430,8 @@
 				6713EF7B13FC5651007F8A05 /* CrossCardView.m in Sources */,
 				67EC911214004F6800028206 /* StatisticsCardView.m in Sources */,
 				67EC911314004F6800028206 /* CardCourse.m in Sources */,
+				67F990AE1401100700C563B2 /* CardPacket.m in Sources */,
+				67F990AF1401100700C563B2 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

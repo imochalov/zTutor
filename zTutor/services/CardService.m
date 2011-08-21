@@ -19,4 +19,9 @@
     return [[[ZTStatistics alloc] initWithValues: 100: 100] autorelease];
 }
 
+-(ZTCardCourse *)getCourse:(NSString *)name {
+    ZTCardCourse *res = [[ZTCardCourse alloc]init];
+    return [res autorelease];
+}
+
 @end

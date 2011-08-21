@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "ICardView.h"
+#import "StatisticsCardView.h"
 
 
-@interface ZTLearnViewController : UIViewController<IZTCardViewDelegate> {
+@interface ZTLearnViewController : UIViewController<IZTCardViewDelegate, IZTStatisticsViewDelegate> {
 
 }
+
+-(ZTStatisticsCardView *)getStatisticsView;
 
 @end
