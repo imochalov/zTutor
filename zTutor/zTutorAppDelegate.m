@@ -12,10 +12,6 @@
 
 @implementation zTutorAppDelegate
 
-UIWindow *_window;
-                                   
-UITabBarController *_rootController;
-
 - (void)initalizeRootViewController {
     NSMutableArray *viewControllersArray = [[NSMutableArray alloc] initWithCapacity:2];
     

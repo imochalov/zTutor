@@ -10,6 +10,10 @@
 
 @interface zTutorAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
 
+@private
+    UIWindow *_window;
+    
+    UITabBarController *_rootController;
 }
 
 @end

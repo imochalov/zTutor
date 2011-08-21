@@ -7,14 +7,9 @@
 //
 
 #import "SearchViewController.h"
-#import "TranslateViewController.h"
 #import "Article.h"
 
 @implementation ZTSearchViewController
-
-UITableView *_table;
-NSArray *_idx;
-ZTTranslateViewController *_translateView;
 
 - (void)loadView {
     [super loadView];

@@ -10,6 +10,8 @@
 #import "Article.h"
 
 @interface ZTTranslateViewController : UIViewController {
+    @private
+        UITextView *_contentView;
 }
 
 @property (retain) ZTArticle *Article;

@@ -18,7 +18,14 @@ typedef enum {
 } ZTCardStatus;
 
 @interface ZTCardCourse : NSObject {
+    @private
+        int completed;
+        int remain;
     
+        ZTCard *_card;
+        ZTCardPacket *_packet;
+        ZTCardStatus _status;
+        NSArray *_cardsArr;
 }
 
 -(ZTStatistics *)getStatistics;

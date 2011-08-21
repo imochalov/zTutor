@@ -11,13 +11,6 @@
 
 @implementation ZTCardCourse
 
-int completed;
-int remain;
-
-ZTCard *_card;
-ZTCardPacket *_packet;
-ZTCardStatus _status;
-
 -(id)init {
     self = [super init];
     if (self != nil) {
@@ -54,7 +47,13 @@ ZTCardStatus _status;
         completed = 100;
         remain = 200;
         _card = [[ZTCard alloc] initWithTranslate:@"my" translate:@"test"];
-        _packet = [[ZTCardPacket alloc] init]; //TODO: need review
+        _cardsArr = [[NSArray alloc] 
+                              initWithObjects:
+                              [[ZTCard alloc] initWithTranslate:@"my" translate:@"мой"], 
+                              [[ZTCard alloc] initWithTranslate:@"window" translate:@"окно"], 
+                              [[ZTCard alloc] initWithTranslate:@"table" translate:@"стол"], 
+                              nil];
+        _packet = [[ZTCardPacket alloc] initWithCards:[_cardsArr objectEnumerator]];
         _status = ZTCardStatusNew;
     }
 }
@@ -62,6 +61,10 @@ ZTCardStatus _status;
 -(void)dealloc {
     [_card release];
     [_packet release];
+    for (ZTCard *item in _cardsArr) {
+        [item release];
+    }
+    [_cardsArr release];
     
     [super dealloc];
 }

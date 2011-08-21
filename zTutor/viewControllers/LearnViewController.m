@@ -8,16 +8,8 @@
 
 #import "LearnViewController.h"
 #import "Statistics.h"
-#import "CardCourse.h"
-#import "ICardView.h"
-#import "NewCardView.h"
 
 @implementation ZTLearnViewController
-
-UIView *_mainView;
-
-ZTCardCourse *_course;
-ZTStatisticsCardView *_statView;
 
 -(void)clearView {
     for (UIView *item in [_mainView subviews]) {
@@ -35,6 +27,7 @@ ZTStatisticsCardView *_statView;
 
 -(void)viewDidLoad {
     _course = [CARDSERVICE getCourse:@"test"]; //TODO:need implementation
+    [_course retain];
 }
 
 -(void)viewDidAppear:(BOOL)animated {
@@ -56,15 +49,15 @@ ZTStatisticsCardView *_statView;
 }
 
 -(void)launch {
-    ZTNewCardView *currentView = [[ZTNewCardView alloc] init];
-    [currentView setDelegate:self];
+    [_currentView release];
+    _currentView = [[ZTStackedCardView alloc] init];
+    [_currentView setDelegate:self];
     [self clearView];
-    [currentView show:_mainView];
-    [currentView release];
+    [_currentView show:_mainView];
 }
 
 -(void)complete:(BOOL)success {
-    NSLog(@"%c", success);
+    NSLog(@"%@", (success ? @"success": @"fail"));
 }
 
 -(ZTCardPacket *)packet {
@@ -78,6 +71,8 @@ ZTStatisticsCardView *_statView;
 -(void)dealloc {
     [_mainView release];
     [_statView release];
+    [_currentView release];
+    [_course release];
     
     [super dealloc];
 }

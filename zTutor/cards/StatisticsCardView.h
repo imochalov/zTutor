@@ -19,7 +19,11 @@
 @end
 
 @interface ZTStatisticsCardView : NSObject {
-    
+    @private
+        UILabel *_edKnownCount;
+        UILabel *_edRemainCount;
+        UIButton *_btnStart;
+        id<IZTStatisticsViewDelegate> _delegate;
 }
 
 -(void)show:(UIView *)container;

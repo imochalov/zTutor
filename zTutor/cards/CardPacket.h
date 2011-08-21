@@ -7,8 +7,11 @@
 //
 
 @interface ZTCardPacket : NSObject {
-    
+    @private
+        NSEnumerator *_items;
 }
+
+-(id)initWithCards:(NSEnumerator *)items;
 
 @property(nonatomic,readonly) NSEnumerator *cards;
 

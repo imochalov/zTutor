@@ -10,8 +10,6 @@
 
 @implementation ZTTranslateViewController 
 
-UITextView *_contentView;
-
 @synthesize Article;
 
 - (void)loadView {

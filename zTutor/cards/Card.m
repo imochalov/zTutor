@@ -11,15 +11,13 @@
 
 @implementation ZTCard 
 
-NSString *_word;
-NSEnumerator *_translate;
-
 -(id)initWithTranslate:(NSString *)word translate:(NSString *)translate {
     self = [super init];
     if (self != nil) {
         _word = word;
         [_word retain];
-        _translate = [[NSEnumerator alloc] init];
+        [translate retain];
+        _translate = [[NSArray alloc] initWithObjects:translate, nil];
         //[_translate
         //[_translate retain];
         //TODO: need implementation
@@ -32,11 +30,14 @@ NSEnumerator *_translate;
 }
 
 -(NSEnumerator *)translate {
-    return _translate;
+    return [_translate objectEnumerator];
 }
 
 -(void)dealloc {
     [_word release];
+    for (NSString *item in _translate) {
+        [item release];
+    }
     [_translate release];
     
     [super dealloc];

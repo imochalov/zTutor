@@ -11,12 +11,4 @@
 
 @implementation ZTNewCardView
 
--(void)setDelegate:(id<IZTCardViewDelegate>)delegate {
-    //TODO: need implementation
-}
-
--(void)show:(UIView *)view {
-    //TODO: need implementation
-}
-
 @end

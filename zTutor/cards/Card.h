@@ -7,7 +7,9 @@
 //
 
 @interface ZTCard: NSObject {
-
+    @private
+        NSString *_word;
+        NSArray *_translate;
 }
 
 -(id)initWithTranslate: (NSString *)word translate:(NSString *)translate;

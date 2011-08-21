@@ -162,8 +162,8 @@
 		670B533413FAF14A0062FC34 /* cards */ = {
 			isa = PBXGroup;
 			children = (
-				67EC910E14004F6800028206 /* StatisticsCardView.m */,
 				67EC910F14004F6800028206 /* StatisticsCardView.h */,
+				67EC910E14004F6800028206 /* StatisticsCardView.m */,
 				67EC911014004F6800028206 /* CardCourse.h */,
 				67EC911114004F6800028206 /* CardCourse.m */,
 				6713EF6A13FC5651007F8A05 /* GrammarViewCard.h */,

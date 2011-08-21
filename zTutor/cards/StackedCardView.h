@@ -10,8 +10,13 @@
 #import "ICardView.h"
 
 
-@interface ZTStackedCardView : NSObject <IZTCardView> {
+@interface ZTStackedCardView : NSObject <IZTCardView,UITableViewDelegate,UITableViewDataSource> {
+    @private
+        id<IZTCardViewDelegate> _delegate;
     
+        NSMutableArray *_translates;
 }
+
+-(void)prepareTranslates;
 
 @end

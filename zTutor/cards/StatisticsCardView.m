@@ -11,11 +11,6 @@
 
 @implementation ZTStatisticsCardView
 
-UILabel *_edKnownCount;
-UILabel *_edRemainCount;
-UIButton *_btnStart;
-id<IZTStatisticsViewDelegate> _delegate;
-
 -(void)show:(UIView *)container {
     UILabel *lblKnownCount = [[UILabel alloc] initWithFrame:CGRectMake(9, 9, 81, 27)];
     [lblKnownCount setText:@"Learned :"];
@@ -50,6 +45,7 @@ id<IZTStatisticsViewDelegate> _delegate;
 }
 
 -(void)setDelegate:(id<IZTStatisticsViewDelegate>)delegate {
+    [_delegate release];
     _delegate = delegate;
     [_delegate retain];
 }
