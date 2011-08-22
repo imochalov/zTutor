@@ -8,6 +8,9 @@
 
 #import "LearnViewController.h"
 #import "Statistics.h"
+#import "NewCardView.h"
+#import "StackedCardView.h"
+
 
 @implementation ZTLearnViewController
 
@@ -49,15 +52,30 @@
 }
 
 -(void)launch {
-    [_currentView release];
-    _currentView = [[ZTStackedCardView alloc] init];
+    [self showNextCard: FALSE];
+}
+
+-(void)showNextCard:(BOOL)prevSuccessful {
+    if (_currentView != nil) {
+        [_course moveNext: prevSuccessful];
+        [_currentView release];
+    }
+    ZTCardStatus status = [_course currentStatus];
+    switch (status) {
+        case ZTCardStatusNew:
+            _currentView = [[ZTNewCardView alloc] init];
+            break;
+        case ZTCardStatusLearn:
+            _currentView = [[ZTStackedCardView alloc] init];
+            break;
+    }
     [_currentView setDelegate:self];
     [self clearView];
     [_currentView show:_mainView];
 }
 
 -(void)complete:(BOOL)success {
-    NSLog(@"%@", (success ? @"success": @"fail"));
+    [self showNextCard: success];
 }
 
 -(ZTCardPacket *)packet {

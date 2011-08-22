@@ -11,7 +11,8 @@
 
 
 @interface ZTNewCardView : NSObject<IZTCardView> {
-    
+@private
+    id<IZTCardViewDelegate> _delegate;
 }
 
 @end
