@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "ICardView.h"
+#import "TouchableView.h"
 
 
-@interface ZTNewCardView : NSObject<IZTCardView> {
+@interface ZTNewCardView : NSObject<IZTCardView,ZTTouchableViewDelegate> {
 @private
     id<IZTCardViewDelegate> _delegate;
+    BOOL _moved; 
 }
 
 @end

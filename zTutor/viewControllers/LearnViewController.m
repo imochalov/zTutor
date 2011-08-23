@@ -23,7 +23,7 @@
 -(void)loadView {
     [super loadView];
     
-    _mainView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    _mainView = [[ZTTouchableView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
     
     [self setView: _mainView];
 }
@@ -75,6 +75,7 @@
 }
 
 -(void)complete:(BOOL)success {
+    NSLog(@"%@", success ? @"success" : @"fail");
     [self showNextCard: success];
 }
 

@@ -11,11 +11,12 @@
 #import "StatisticsCardView.h"
 #import "CardCourse.h"
 #import "ICardView.h"
+#import "TouchableView.h";
 
 
 @interface ZTLearnViewController : UIViewController<IZTCardViewDelegate, IZTStatisticsViewDelegate> {
     @private
-        UIView *_mainView;
+        ZTTouchableView *_mainView;
     
         ZTCardCourse *_course;
         ZTStatisticsCardView *_statView;

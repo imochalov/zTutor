@@ -8,6 +8,8 @@
 
 #import "CardPacket.h"
 #import "Card.h"
+#import "TouchableView.h"
+
 
 @protocol IZTCardViewDelegate <NSObject>
 
@@ -21,7 +23,7 @@
 
 @protocol IZTCardView
 
--(void)show:(UIView *)view;
+-(void)show:(ZTTouchableView *)view;
 
 @property(nonatomic,assign) id<IZTCardViewDelegate> delegate;
 

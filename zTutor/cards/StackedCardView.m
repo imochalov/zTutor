@@ -16,7 +16,7 @@
     [_delegate retain];
 }
 
--(void)show:(UIView *)view {
+-(void)show:(ZTTouchableView *)view {
     CGRect frame = [view frame];
     
     UILabel *lblWord = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, frame.size.width, 63)];

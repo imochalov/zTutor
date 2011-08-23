@@ -22,6 +22,7 @@
 		678586BB13F6A2F600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
 		678586D013F6A7C600A7155A /* ServiceManagerTestCase.h in Sources */ = {isa = PBXBuildFile; fileRef = 678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */; };
 		678586D113F6A7C600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
+		67E77D2014042F8C00BD445A /* TouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E77D1E14042F8C00BD445A /* TouchableView.m */; };
 		67EC911214004F6800028206 /* StatisticsCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC910E14004F6800028206 /* StatisticsCardView.m */; };
 		67EC911314004F6800028206 /* CardCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC911114004F6800028206 /* CardCourse.m */; };
 		67F2C54613FC51C000853FAD /* StackedCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2C54413FC51C000853FAD /* StackedCardView.m */; };
@@ -89,6 +90,8 @@
 		678586B713F69EE700A7155A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManagerTestCase.h; sourceTree = "<group>"; };
 		678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManagerTestCase.m; sourceTree = "<group>"; };
+		67E77D1E14042F8C00BD445A /* TouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableView.m; sourceTree = "<group>"; };
+		67E77D1F14042F8C00BD445A /* TouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableView.h; sourceTree = "<group>"; };
 		67EC910E14004F6800028206 /* StatisticsCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticsCardView.m; path = cards/StatisticsCardView.m; sourceTree = "<group>"; };
 		67EC910F14004F6800028206 /* StatisticsCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatisticsCardView.h; path = cards/StatisticsCardView.h; sourceTree = "<group>"; };
 		67EC911014004F6800028206 /* CardCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardCourse.h; path = cards/CardCourse.h; sourceTree = "<group>"; };
@@ -248,6 +251,8 @@
 				67F409CD13F70E4D00DAB1DE /* Article.m */,
 				6716427F13F98FB900C95F80 /* Statistics.h */,
 				6716428013F98FB900C95F80 /* Statistics.m */,
+				67E77D1F14042F8C00BD445A /* TouchableView.h */,
+				67E77D1E14042F8C00BD445A /* TouchableView.m */,
 			);
 			path = zTutor;
 			sourceTree = "<group>";
@@ -432,6 +437,7 @@
 				67EC911314004F6800028206 /* CardCourse.m in Sources */,
 				67F990AE1401100700C563B2 /* CardPacket.m in Sources */,
 				67F990AF1401100700C563B2 /* Card.m in Sources */,
+				67E77D2014042F8C00BD445A /* TouchableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

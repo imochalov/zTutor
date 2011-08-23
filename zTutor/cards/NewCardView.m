@@ -17,9 +17,11 @@
     [_delegate retain];
 }
 
--(void)show:(UIView *)view {
+-(void)show:(ZTTouchableView *)view {
     CGRect frame = [view frame];
     ZTCard *card = [_delegate card];
+    
+    [view setDelegate:self];
     
     UILabel *lblWord = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, frame.size.width, 63)];
     [lblWord setTextAlignment:UITextAlignmentCenter];
@@ -32,11 +34,26 @@
     [lblTran setTextAlignment:UITextAlignmentCenter];
     [lblTran setText:[[card translate] nextObject]];
     [lblTran setFont:[UIFont fontWithName:@"Arial" size:26.0]];
-    [view addTarget:self
-                action: @selector(touched)
-      forControlEvents: UIControlEventTouchUpInside];
     [view addSubview:lblTran];
     [lblTran release];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    _moved = FALSE;
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    _moved = TRUE;
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    if (_moved) {
+        [_delegate complete:TRUE];
+    }
+}
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+    
 }
 
 -(void)touched:(id)sender {
