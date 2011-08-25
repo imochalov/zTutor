@@ -47,7 +47,8 @@ NSMutableArray *_index;
         }
         bytes++;
     }
-    //free(bytes);
+    bytes -= length;
+    free(bytes);
     [fileHandle closeFile];
 }
 

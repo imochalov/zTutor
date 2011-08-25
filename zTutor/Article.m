@@ -33,16 +33,7 @@
 -(NSRange)getPoint {
     
     int index = 0;
-    /*for (unsigned n = 0; n < sizeof(index); n++)
-        index = (index << 8) + _dicPoint[n];
-    for (int n = sizeof(index); n >= 0; n--)
-        index = (index << 8) + _dicPoint[n];*/
-    
     int length = 0;
-    /*for (unsigned n = 0; n < sizeof(length); n++)
-        length = (length << 8) + _dicPoint[n + 4];
-    for (int n = sizeof(length); n >= 0; n--)
-        length = (length << 8) + _dicPoint[n + 4];*/
     
     unsigned char indexData[] = { _dicPoint[3], _dicPoint[2], _dicPoint[1], _dicPoint[0] };
     index = *((NSInteger *)indexData);

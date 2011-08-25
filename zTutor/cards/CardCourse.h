@@ -9,32 +9,34 @@
 #import <Foundation/Foundation.h>
 #import "Statistics.h"
 #import "Card.h"
-#import "CardPacket.h"
 
+@protocol IZTCardCourseDataSource <NSObject>
 
-typedef enum {
-    ZTCardStatusNew,
-    ZTCardStatusLearn
-} ZTCardStatus;
+-(ZTCard *)readCard;
+
+-(void)writeCard:(ZTCard *)card;
+
+-(ZTStatistics *)readStatistics;
+
+-(void)writeStatistics:(ZTStatistics *)statistics;
+
+@end
 
 @interface ZTCardCourse : NSObject {
     @private
-        int completed;
-        int remain;
-    
         ZTCard *_card;
-        ZTCardPacket *_packet;
-        ZTCardStatus _status;
         NSArray *_cardsArr;
 }
 
--(ZTStatistics *)getStatistics;
+@property(nonatomic,readonly) NSString *name;
+
+@property(nonatomic,assign) id<IZTCardCourseDataSource> dataSource;
+
+@property(nonatomic,readonly) ZTStatistics *statistics;
 
 @property(nonatomic,readonly) ZTCard *currentCard;
 
-@property(nonatomic,readonly) ZTCardPacket *currentPacket;
-
-@property(nonatomic,readonly) ZTCardStatus currentStatus;
+@property(nonatomic,readonly) NSEnumerator *currentPacket;
 
 -(BOOL)moveNext:(BOOL)seccessful;
 

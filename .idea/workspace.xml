@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4997a3af-263c-4ec2-9f3e-d634e511091a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutor/Statistics.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTutor/Statistics.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/cards/CardPacket.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zTutor/cards/CardPacket.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor.xcodeproj/project.xcworkspace/xcuserdata/imochalov.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/zTutor.xcodeproj/project.xcworkspace/xcuserdata/imochalov.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor.xcodeproj/xcuserdata/imochalov.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist" afterPath="$PROJECT_DIR$/zTutor.xcodeproj/xcuserdata/imochalov.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/zTutor.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/Article.m" afterPath="$PROJECT_DIR$/zTutor/Article.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/cards/Card.h" afterPath="$PROJECT_DIR$/zTutor/cards/Card.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/cards/CardCourse.h" afterPath="$PROJECT_DIR$/zTutor/cards/CardCourse.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/cards/CardCourse.m" afterPath="$PROJECT_DIR$/zTutor/cards/CardCourse.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/cards/ICardView.h" afterPath="$PROJECT_DIR$/zTutor/cards/ICardView.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/CardService.h" afterPath="$PROJECT_DIR$/zTutor/services/CardService.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/CardService.m" afterPath="$PROJECT_DIR$/zTutor/services/CardService.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/services/SearchService.m" afterPath="$PROJECT_DIR$/zTutor/services/SearchService.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zTutor/viewControllers/LearnViewController.m" afterPath="$PROJECT_DIR$/zTutor/viewControllers/LearnViewController.m" />
     </list>
     <ignored path="zTutor.iws" />
@@ -34,6 +41,73 @@
       <favorite_root url="file://$PROJECT_DIR$/zTutor/resources/LingvoUniversalER.idx" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CardService.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zTutor/services/CardService.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardService.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zTutor/services/CardService.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="31" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.6797153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSRange.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="26" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSString.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="229" column="8" selection-start="13760" selection-end="13760" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zTutor/cards/Card.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="22" selection-start="363" selection-end="380" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchService.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zTutor/services/SearchService.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="88" selection-start="1065" selection-end="1272" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zTutor/Article.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="19" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -46,11 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/zTutor/zTutor-Info.plist" />
-        <option value="$PROJECT_DIR$/zTutor/main.m" />
-        <option value="$PROJECT_DIR$/zTutor/FirstViewController.m" />
-        <option value="$PROJECT_DIR$/zTutor/viewControllers/searchController.h" />
-        <option value="$PROJECT_DIR$/zTutor/viewControllers/LearnViewController.h" />
         <option value="$PROJECT_DIR$/zTutor/viewControllers/LearnViewController.m" />
         <option value="$PROJECT_DIR$/zTutor.xcodeproj/project.pbxproj" />
         <option value="$PROJECT_DIR$/zTutor/zTutorAppDelegate.h" />
@@ -60,8 +129,13 @@
         <option value="$PROJECT_DIR$/zTutor/zTutorAppDelegate.m" />
         <option value="$PROJECT_DIR$/zTutor/zTutor-Prefix.pch" />
         <option value="$PROJECT_DIR$/zTutor/viewControllers/TranslateViewController.m" />
-        <option value="$PROJECT_DIR$/zTutor/services/SearchService.m" />
         <option value="$PROJECT_DIR$/zTutor/services/BaseService.h" />
+        <option value="$PROJECT_DIR$/zTutor/Article.m" />
+        <option value="$PROJECT_DIR$/zTutor/services/SearchService.m" />
+        <option value="$PROJECT_DIR$/zTutor/Statistics.h" />
+        <option value="$PROJECT_DIR$/zTutor/cards/Card.h" />
+        <option value="$PROJECT_DIR$/zTutor/services/CardService.h" />
+        <option value="$PROJECT_DIR$/zTutor/services/CardService.m" />
       </list>
     </option>
   </component>
@@ -107,9 +181,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="DirectoryView.Xcode" />
       <pane id="Scope" />
+      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -122,8 +195,41 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt;unnamed&gt;" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zTutor" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt;unnamed&gt;" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zTutor" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +241,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="111" />
-    <property name="options.lastSelected" value="editor.preferences.tabs" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -231,14 +337,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="708" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1280" height="690" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.49044585" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.328594" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" x="0" y="272" width="1280" height="208" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.4936306" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15286624" sideWeight="0.3727422" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22611465" sideWeight="0.6717428" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.0" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.50318474" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3234811" sideWeight="0.48407644" order="2" side_tool="false" content_ui="tabs" />
@@ -246,8 +354,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.49044585" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39901477" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -303,46 +409,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationBar.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="29" selection-start="3583" selection-end="3583" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file:///Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="3579" selection-end="3671" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zTutor/main.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zTutor/viewControllers/LearnViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="42" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zTutor/zTutorAppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zTutor/viewControllers/SearchViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="60" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zTutor/zTutor-Info.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="516" selection-end="516" vertical-scroll-proportion="-0.07832898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zTutor.xcodeproj/project.pbxproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-9.114442" />
-      </provider>
-    </entry>
     <entry file="file:///Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSPathUtilities.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="104" column="46" selection-start="5578" selection-end="5578" vertical-scroll-proportion="3.891892" />
@@ -368,9 +434,81 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zTutor/services/DictionaryService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="20" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zTutor/Article.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="247" selection-end="247" vertical-scroll-proportion="0.33274022">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zTutor/Article.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileHandle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zTutor/Statistics.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="186" selection-end="198" vertical-scroll-proportion="0.2935943">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zTutor/cards/Card.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="363" selection-end="380" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zTutor/services/SearchService.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" />
+        <state line="37" column="88" selection-start="1065" selection-end="1272" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zTutor/services/CardService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="8" selection-start="13760" selection-end="13760" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="26" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zTutor/services/CardService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="31" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.6797153">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

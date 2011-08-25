@@ -60,7 +60,7 @@
         [_course moveNext: prevSuccessful];
         [_currentView release];
     }
-    ZTCardStatus status = [_course currentStatus];
+    ZTCardStatus status = [[_course currentCard] status];
     switch (status) {
         case ZTCardStatusNew:
             _currentView = [[ZTNewCardView alloc] init];
@@ -79,7 +79,7 @@
     [self showNextCard: success];
 }
 
--(ZTCardPacket *)packet {
+-(NSEnumerator *)packet {
     return [_course currentPacket];
 }
 

@@ -11,6 +11,16 @@
 #import "CardCourse.h"
 
 
+@interface ZTCardCourseDataSource : NSObject<IZTCardCourseDataSource> {
+    @private
+    NSString *_path;
+    unsigned long _index;
+}
+
+-(id)initWithFilePath:(NSString *)path;
+
+@end
+
 @interface ZTCardService : NSObject<IZTService> {
 
 }

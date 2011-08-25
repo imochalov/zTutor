@@ -6,7 +6,6 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "CardPacket.h"
 #import "Card.h"
 #import "TouchableView.h"
 
@@ -15,11 +14,12 @@
 
 -(void)complete:(BOOL)success;
 
-@property(nonatomic,readonly) ZTCardPacket *packet;
+@property(nonatomic,readonly) NSEnumerator *packet;
 
 @property(nonatomic,readonly) ZTCard *card;
 
 @end
+
 
 @protocol IZTCardView
 

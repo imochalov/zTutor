@@ -20,7 +20,7 @@
 }
 
 -(ZTStatistics *)getStatistics {
-    ZTStatistics *res = [[ZTStatistics alloc] initWithValues:completed:remain];
+    ZTStatistics *res = [[ZTStatistics alloc] initWithValues:0:0];
     return [res autorelease];
 }
 
@@ -28,12 +28,8 @@
     return _card;
 }
 
--(ZTCardPacket *)currentPacket {
-    return _packet;
-}
-
--(ZTCardStatus)currentStatus {
-    return _status;
+-(NSEnumerator *)currentPacket {
+    return [_cardsArr objectEnumerator];
 }
 
 -(BOOL)moveNext:(BOOL)seccessful {
@@ -44,8 +40,6 @@
 -(void)loadNextCard {
     //TODO: need implementation
     if (_card == nil) {
-        completed = 100;
-        remain = 200;
         _card = [[ZTCard alloc] initWithTranslate:@"my" translate:@"test"];
         _cardsArr = [[NSArray alloc] 
                               initWithObjects:
@@ -53,14 +47,11 @@
                               [[ZTCard alloc] initWithTranslate:@"window" translate:@"окно"], 
                               [[ZTCard alloc] initWithTranslate:@"table" translate:@"стол"], 
                               nil];
-        _packet = [[ZTCardPacket alloc] initWithCards:[_cardsArr objectEnumerator]];
-        _status = ZTCardStatusNew;
     }
 }
 
 -(void)dealloc {
     [_card release];
-    [_packet release];
     for (ZTCard *item in _cardsArr) {
         [item release];
     }
