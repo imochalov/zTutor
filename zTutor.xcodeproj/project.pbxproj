@@ -22,6 +22,42 @@
 		678586BB13F6A2F600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
 		678586D013F6A7C600A7155A /* ServiceManagerTestCase.h in Sources */ = {isa = PBXBuildFile; fileRef = 678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */; };
 		678586D113F6A7C600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
+		6798905A143CD96700C64CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0713F5D947003C012C /* Foundation.framework */; };
+		67989060143CD96700C64CED /* zTutorService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6798905F143CD96700C64CED /* zTutorService.m */; };
+		67989067143CD96700C64CED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678586B713F69EE700A7155A /* SenTestingKit.framework */; };
+		67989068143CD96700C64CED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0513F5D947003C012C /* UIKit.framework */; };
+		67989069143CD96700C64CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0713F5D947003C012C /* Foundation.framework */; };
+		6798906A143CD96700C64CED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0913F5D947003C012C /* CoreGraphics.framework */; };
+		6798906D143CD96700C64CED /* libzTutorService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67989059143CD96700C64CED /* libzTutorService.a */; };
+		67989073143CD96700C64CED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67989071143CD96700C64CED /* InfoPlist.strings */; };
+		67989075143CD96700C64CED /* zTutorServiceTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 67989074143CD96700C64CED /* zTutorServiceTests.h */; };
+		67989077143CD96700C64CED /* zTutorServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67989076143CD96700C64CED /* zTutorServiceTests.m */; };
+		67989081143CD9FD00C64CED /* zCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 67989080143CD9FD00C64CED /* zCard.m */; };
+		67989084143CDAF300C64CED /* zTranslation.h in Headers */ = {isa = PBXBuildFile; fileRef = 67989082143CDAF300C64CED /* zTranslation.h */; };
+		67989085143CDAF300C64CED /* zTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67989083143CDAF300C64CED /* zTranslation.m */; };
+		67989088143CDE8600C64CED /* zArticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 67989086143CDE8600C64CED /* zArticle.h */; };
+		67989089143CDE8600C64CED /* zArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 67989087143CDE8600C64CED /* zArticle.m */; };
+		6798908B143CE03B00C64CED /* zGrammarType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6798908A143CE03B00C64CED /* zGrammarType.h */; };
+		6798908E143CE27500C64CED /* zDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6798908C143CE27500C64CED /* zDictionary.h */; };
+		6798908F143CE27500C64CED /* zDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6798908D143CE27500C64CED /* zDictionary.m */; };
+		679890921443793E00C64CED /* zDBRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890901443793E00C64CED /* zDBRecord.h */; };
+		679890931443793E00C64CED /* zDBRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890911443793E00C64CED /* zDBRecord.m */; };
+		67989096144379E800C64CED /* zPronouncing.h in Headers */ = {isa = PBXBuildFile; fileRef = 67989094144379E700C64CED /* zPronouncing.h */; };
+		67989097144379E800C64CED /* zPronouncing.m in Sources */ = {isa = PBXBuildFile; fileRef = 67989095144379E700C64CED /* zPronouncing.m */; };
+		6798909A14437AD400C64CED /* zCardBrief.h in Headers */ = {isa = PBXBuildFile; fileRef = 6798909814437AD300C64CED /* zCardBrief.h */; };
+		6798909B14437AD400C64CED /* zCardBrief.m in Sources */ = {isa = PBXBuildFile; fileRef = 6798909914437AD300C64CED /* zCardBrief.m */; };
+		6798909E14437B8100C64CED /* zCourse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6798909C14437B8000C64CED /* zCourse.h */; };
+		6798909F14437B8100C64CED /* zCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6798909D14437B8000C64CED /* zCourse.m */; };
+		679890A214437BCD00C64CED /* zStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890A014437BCC00C64CED /* zStatistics.h */; };
+		679890A314437BCD00C64CED /* zStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890A114437BCC00C64CED /* zStatistics.m */; };
+		679890A814437CC300C64CED /* zDataBaseService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890A614437CC300C64CED /* zDataBaseService.h */; };
+		679890A914437CC300C64CED /* zDataBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890A714437CC300C64CED /* zDataBaseService.m */; };
+		679890AC14437DCF00C64CED /* zSearchService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890AA14437DCF00C64CED /* zSearchService.h */; };
+		679890AD14437DCF00C64CED /* zSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890AB14437DCF00C64CED /* zSearchService.m */; };
+		679890B014437E2800C64CED /* zDictionaryService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890AE14437E2800C64CED /* zDictionaryService.h */; };
+		679890B114437E2800C64CED /* zDictionaryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890AF14437E2800C64CED /* zDictionaryService.m */; };
+		679890B414437E9F00C64CED /* zLearningService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890B214437E9F00C64CED /* zLearningService.h */; };
+		679890B514437E9F00C64CED /* zLearningService.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890B314437E9F00C64CED /* zLearningService.m */; };
 		67E77D2014042F8C00BD445A /* TouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E77D1E14042F8C00BD445A /* TouchableView.m */; };
 		67EC911214004F6800028206 /* StatisticsCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC910E14004F6800028206 /* StatisticsCardView.m */; };
 		67EC911314004F6800028206 /* CardCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC911114004F6800028206 /* CardCourse.m */; };
@@ -53,6 +89,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6798906B143CD96700C64CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67F979F813F5D947003C012C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67989058143CD96700C64CED;
+			remoteInfo = zTutorService;
+		};
 		67F97A2F13F5D947003C012C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 67F979F813F5D947003C012C /* Project object */;
@@ -88,6 +131,42 @@
 		678586B713F69EE700A7155A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManagerTestCase.h; sourceTree = "<group>"; };
 		678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManagerTestCase.m; sourceTree = "<group>"; };
+		67989059143CD96700C64CED /* libzTutorService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzTutorService.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6798905D143CD96700C64CED /* zTutorService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zTutorService-Prefix.pch"; sourceTree = "<group>"; };
+		6798905E143CD96700C64CED /* zTutorService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zTutorService.h; sourceTree = "<group>"; };
+		6798905F143CD96700C64CED /* zTutorService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zTutorService.m; sourceTree = "<group>"; };
+		67989066143CD96700C64CED /* zTutorServiceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zTutorServiceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67989070143CD96700C64CED /* zTutorServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zTutorServiceTests-Info.plist"; sourceTree = "<group>"; };
+		67989072143CD96700C64CED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67989074143CD96700C64CED /* zTutorServiceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zTutorServiceTests.h; sourceTree = "<group>"; };
+		67989076143CD96700C64CED /* zTutorServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zTutorServiceTests.m; sourceTree = "<group>"; };
+		6798907F143CD9FD00C64CED /* zCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zCard.h; sourceTree = "<group>"; };
+		67989080143CD9FD00C64CED /* zCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zCard.m; sourceTree = "<group>"; };
+		67989082143CDAF300C64CED /* zTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zTranslation.h; sourceTree = "<group>"; };
+		67989083143CDAF300C64CED /* zTranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zTranslation.m; sourceTree = "<group>"; };
+		67989086143CDE8600C64CED /* zArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zArticle.h; sourceTree = "<group>"; };
+		67989087143CDE8600C64CED /* zArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zArticle.m; sourceTree = "<group>"; };
+		6798908A143CE03B00C64CED /* zGrammarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zGrammarType.h; sourceTree = "<group>"; };
+		6798908C143CE27500C64CED /* zDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zDictionary.h; sourceTree = "<group>"; };
+		6798908D143CE27500C64CED /* zDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zDictionary.m; sourceTree = "<group>"; };
+		679890901443793E00C64CED /* zDBRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zDBRecord.h; sourceTree = "<group>"; };
+		679890911443793E00C64CED /* zDBRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zDBRecord.m; sourceTree = "<group>"; };
+		67989094144379E700C64CED /* zPronouncing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zPronouncing.h; sourceTree = "<group>"; };
+		67989095144379E700C64CED /* zPronouncing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zPronouncing.m; sourceTree = "<group>"; };
+		6798909814437AD300C64CED /* zCardBrief.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zCardBrief.h; sourceTree = "<group>"; };
+		6798909914437AD300C64CED /* zCardBrief.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zCardBrief.m; sourceTree = "<group>"; };
+		6798909C14437B8000C64CED /* zCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zCourse.h; sourceTree = "<group>"; };
+		6798909D14437B8000C64CED /* zCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zCourse.m; sourceTree = "<group>"; };
+		679890A014437BCC00C64CED /* zStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zStatistics.h; sourceTree = "<group>"; };
+		679890A114437BCC00C64CED /* zStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zStatistics.m; sourceTree = "<group>"; };
+		679890A614437CC300C64CED /* zDataBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zDataBaseService.h; sourceTree = "<group>"; };
+		679890A714437CC300C64CED /* zDataBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zDataBaseService.m; sourceTree = "<group>"; };
+		679890AA14437DCF00C64CED /* zSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zSearchService.h; path = Service/zSearchService.h; sourceTree = "<group>"; };
+		679890AB14437DCF00C64CED /* zSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zSearchService.m; path = Service/zSearchService.m; sourceTree = "<group>"; };
+		679890AE14437E2800C64CED /* zDictionaryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zDictionaryService.h; path = Service/zDictionaryService.h; sourceTree = "<group>"; };
+		679890AF14437E2800C64CED /* zDictionaryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zDictionaryService.m; path = Service/zDictionaryService.m; sourceTree = "<group>"; };
+		679890B214437E9F00C64CED /* zLearningService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zLearningService.h; path = Service/zLearningService.h; sourceTree = "<group>"; };
+		679890B314437E9F00C64CED /* zLearningService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zLearningService.m; path = Service/zLearningService.m; sourceTree = "<group>"; };
 		67E77D1E14042F8C00BD445A /* TouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableView.m; sourceTree = "<group>"; };
 		67E77D1F14042F8C00BD445A /* TouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableView.h; sourceTree = "<group>"; };
 		67EC910E14004F6800028206 /* StatisticsCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticsCardView.m; path = cards/StatisticsCardView.m; sourceTree = "<group>"; };
@@ -135,6 +214,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		67989056143CD96700C64CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6798905A143CD96700C64CED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67989062143CD96700C64CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67989067143CD96700C64CED /* SenTestingKit.framework in Frameworks */,
+				67989068143CD96700C64CED /* UIKit.framework in Frameworks */,
+				67989069143CD96700C64CED /* Foundation.framework in Frameworks */,
+				6798906A143CD96700C64CED /* CoreGraphics.framework in Frameworks */,
+				6798906D143CD96700C64CED /* libzTutorService.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67F979FE13F5D947003C012C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,11 +298,93 @@
 			path = zTutorTests;
 			sourceTree = "<group>";
 		};
+		6798905B143CD96700C64CED /* zTutorService */ = {
+			isa = PBXGroup;
+			children = (
+				679890A514437C8600C64CED /* Service */,
+				679890A414437C5D00C64CED /* Element */,
+				6798905E143CD96700C64CED /* zTutorService.h */,
+				6798905F143CD96700C64CED /* zTutorService.m */,
+				6798905C143CD96700C64CED /* Supporting Files */,
+			);
+			path = zTutorService;
+			sourceTree = "<group>";
+		};
+		6798905C143CD96700C64CED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6798905D143CD96700C64CED /* zTutorService-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6798906E143CD96700C64CED /* zTutorServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				67989074143CD96700C64CED /* zTutorServiceTests.h */,
+				67989076143CD96700C64CED /* zTutorServiceTests.m */,
+				6798906F143CD96700C64CED /* Supporting Files */,
+			);
+			path = zTutorServiceTests;
+			sourceTree = "<group>";
+		};
+		6798906F143CD96700C64CED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67989070143CD96700C64CED /* zTutorServiceTests-Info.plist */,
+				67989071143CD96700C64CED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		679890A414437C5D00C64CED /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				6798907F143CD9FD00C64CED /* zCard.h */,
+				67989080143CD9FD00C64CED /* zCard.m */,
+				67989082143CDAF300C64CED /* zTranslation.h */,
+				67989083143CDAF300C64CED /* zTranslation.m */,
+				67989086143CDE8600C64CED /* zArticle.h */,
+				67989087143CDE8600C64CED /* zArticle.m */,
+				6798908A143CE03B00C64CED /* zGrammarType.h */,
+				6798908C143CE27500C64CED /* zDictionary.h */,
+				6798908D143CE27500C64CED /* zDictionary.m */,
+				679890901443793E00C64CED /* zDBRecord.h */,
+				679890911443793E00C64CED /* zDBRecord.m */,
+				67989094144379E700C64CED /* zPronouncing.h */,
+				67989095144379E700C64CED /* zPronouncing.m */,
+				6798909814437AD300C64CED /* zCardBrief.h */,
+				6798909914437AD300C64CED /* zCardBrief.m */,
+				6798909C14437B8000C64CED /* zCourse.h */,
+				6798909D14437B8000C64CED /* zCourse.m */,
+				679890A014437BCC00C64CED /* zStatistics.h */,
+				679890A114437BCC00C64CED /* zStatistics.m */,
+			);
+			name = Element;
+			sourceTree = "<group>";
+		};
+		679890A514437C8600C64CED /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				679890A614437CC300C64CED /* zDataBaseService.h */,
+				679890A714437CC300C64CED /* zDataBaseService.m */,
+				679890AA14437DCF00C64CED /* zSearchService.h */,
+				679890AB14437DCF00C64CED /* zSearchService.m */,
+				679890AE14437E2800C64CED /* zDictionaryService.h */,
+				679890AF14437E2800C64CED /* zDictionaryService.m */,
+				679890B214437E9F00C64CED /* zLearningService.h */,
+				679890B314437E9F00C64CED /* zLearningService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
 		67F979F613F5D947003C012C = {
 			isa = PBXGroup;
 			children = (
 				678586AD13F69B1100A7155A /* zTutorTests */,
 				67F97A4C13F5D9EC003C012C /* zTutor */,
+				6798905B143CD96700C64CED /* zTutorService */,
+				6798906E143CD96700C64CED /* zTutorServiceTests */,
 				67F97A0413F5D947003C012C /* Frameworks */,
 				67F97A0213F5D947003C012C /* Products */,
 			);
@@ -214,6 +395,8 @@
 			children = (
 				67F97A0113F5D947003C012C /* zTutor.app */,
 				67F97A2B13F5D947003C012C /* zTutorTests.octest */,
+				67989059143CD96700C64CED /* libzTutorService.a */,
+				67989066143CD96700C64CED /* zTutorServiceTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -300,7 +483,66 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		67989057143CD96700C64CED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67989084143CDAF300C64CED /* zTranslation.h in Headers */,
+				67989088143CDE8600C64CED /* zArticle.h in Headers */,
+				6798908B143CE03B00C64CED /* zGrammarType.h in Headers */,
+				6798908E143CE27500C64CED /* zDictionary.h in Headers */,
+				679890921443793E00C64CED /* zDBRecord.h in Headers */,
+				67989096144379E800C64CED /* zPronouncing.h in Headers */,
+				6798909A14437AD400C64CED /* zCardBrief.h in Headers */,
+				6798909E14437B8100C64CED /* zCourse.h in Headers */,
+				679890A214437BCD00C64CED /* zStatistics.h in Headers */,
+				679890A814437CC300C64CED /* zDataBaseService.h in Headers */,
+				679890AC14437DCF00C64CED /* zSearchService.h in Headers */,
+				679890B014437E2800C64CED /* zDictionaryService.h in Headers */,
+				679890B414437E9F00C64CED /* zLearningService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		67989058143CD96700C64CED /* zTutorService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6798907C143CD96700C64CED /* Build configuration list for PBXNativeTarget "zTutorService" */;
+			buildPhases = (
+				67989055143CD96700C64CED /* Sources */,
+				67989056143CD96700C64CED /* Frameworks */,
+				67989057143CD96700C64CED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zTutorService;
+			productName = zTutorService;
+			productReference = 67989059143CD96700C64CED /* libzTutorService.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		67989065143CD96700C64CED /* zTutorServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6798907D143CD96700C64CED /* Build configuration list for PBXNativeTarget "zTutorServiceTests" */;
+			buildPhases = (
+				67989061143CD96700C64CED /* Sources */,
+				67989062143CD96700C64CED /* Frameworks */,
+				67989063143CD96700C64CED /* Resources */,
+				67989064143CD96700C64CED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6798906C143CD96700C64CED /* PBXTargetDependency */,
+			);
+			name = zTutorServiceTests;
+			productName = zTutorServiceTests;
+			productReference = 67989066143CD96700C64CED /* zTutorServiceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		67F97A0013F5D947003C012C /* zTutor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67F97A3E13F5D947003C012C /* Build configuration list for PBXNativeTarget "zTutor" */;
@@ -356,11 +598,22 @@
 			targets = (
 				67F97A0013F5D947003C012C /* zTutor */,
 				67F97A2A13F5D947003C012C /* zTutorTests */,
+				67989058143CD96700C64CED /* zTutorService */,
+				67989065143CD96700C64CED /* zTutorServiceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		67989063143CD96700C64CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67989073143CD96700C64CED /* InfoPlist.strings in Resources */,
+				67989075143CD96700C64CED /* zTutorServiceTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67F979FF13F5D947003C012C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,6 +639,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		67989064143CD96700C64CED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		67F97A2913F5D947003C012C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +668,34 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		67989055143CD96700C64CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67989060143CD96700C64CED /* zTutorService.m in Sources */,
+				67989085143CDAF300C64CED /* zTranslation.m in Sources */,
+				67989089143CDE8600C64CED /* zArticle.m in Sources */,
+				6798908F143CE27500C64CED /* zDictionary.m in Sources */,
+				679890931443793E00C64CED /* zDBRecord.m in Sources */,
+				67989097144379E800C64CED /* zPronouncing.m in Sources */,
+				6798909B14437AD400C64CED /* zCardBrief.m in Sources */,
+				6798909F14437B8100C64CED /* zCourse.m in Sources */,
+				679890A314437BCD00C64CED /* zStatistics.m in Sources */,
+				679890A914437CC300C64CED /* zDataBaseService.m in Sources */,
+				679890AD14437DCF00C64CED /* zSearchService.m in Sources */,
+				679890B114437E2800C64CED /* zDictionaryService.m in Sources */,
+				679890B514437E9F00C64CED /* zLearningService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67989061143CD96700C64CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67989077143CD96700C64CED /* zTutorServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67F979FD13F5D947003C012C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -432,6 +726,7 @@
 				67EC911314004F6800028206 /* CardCourse.m in Sources */,
 				67F990AF1401100700C563B2 /* Card.m in Sources */,
 				67E77D2014042F8C00BD445A /* TouchableView.m in Sources */,
+				67989081143CD9FD00C64CED /* zCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +742,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6798906C143CD96700C64CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67989058143CD96700C64CED /* zTutorService */;
+			targetProxy = 6798906B143CD96700C64CED /* PBXContainerItemProxy */;
+		};
 		67F97A3013F5D947003C012C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 67F97A0013F5D947003C012C /* zTutor */;
@@ -463,6 +763,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		67989071143CD96700C64CED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67989072143CD96700C64CED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		67F97A4D13F5D9EC003C012C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -474,6 +782,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		67989078143CD96700C64CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/zTutorService.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutorService/zTutorService-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		67989079143CD96700C64CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/zTutorService.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutorService/zTutorService-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6798907A143CD96700C64CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutorService/zTutorService-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "zTutorServiceTests/zTutorServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6798907B143CD96700C64CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zTutorService/zTutorService-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "zTutorServiceTests/zTutorServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		67F97A3C13F5D947003C012C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -589,6 +975,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6798907C143CD96700C64CED /* Build configuration list for PBXNativeTarget "zTutorService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67989078143CD96700C64CED /* Debug */,
+				67989079143CD96700C64CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6798907D143CD96700C64CED /* Build configuration list for PBXNativeTarget "zTutorServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6798907A143CD96700C64CED /* Debug */,
+				6798907B143CD96700C64CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		67F979FB13F5D947003C012C /* Build configuration list for PBXProject "zTutor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
