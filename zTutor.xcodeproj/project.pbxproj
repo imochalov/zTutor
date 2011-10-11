@@ -23,15 +23,12 @@
 		678586D013F6A7C600A7155A /* ServiceManagerTestCase.h in Sources */ = {isa = PBXBuildFile; fileRef = 678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */; };
 		678586D113F6A7C600A7155A /* ServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */; };
 		6798905A143CD96700C64CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0713F5D947003C012C /* Foundation.framework */; };
-		67989060143CD96700C64CED /* zTutorService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6798905F143CD96700C64CED /* zTutorService.m */; };
 		67989067143CD96700C64CED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678586B713F69EE700A7155A /* SenTestingKit.framework */; };
 		67989068143CD96700C64CED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0513F5D947003C012C /* UIKit.framework */; };
 		67989069143CD96700C64CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0713F5D947003C012C /* Foundation.framework */; };
 		6798906A143CD96700C64CED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F97A0913F5D947003C012C /* CoreGraphics.framework */; };
 		6798906D143CD96700C64CED /* libzTutorService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67989059143CD96700C64CED /* libzTutorService.a */; };
 		67989073143CD96700C64CED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67989071143CD96700C64CED /* InfoPlist.strings */; };
-		67989075143CD96700C64CED /* zTutorServiceTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 67989074143CD96700C64CED /* zTutorServiceTests.h */; };
-		67989077143CD96700C64CED /* zTutorServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67989076143CD96700C64CED /* zTutorServiceTests.m */; };
 		67989081143CD9FD00C64CED /* zCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 67989080143CD9FD00C64CED /* zCard.m */; };
 		67989084143CDAF300C64CED /* zTranslation.h in Headers */ = {isa = PBXBuildFile; fileRef = 67989082143CDAF300C64CED /* zTranslation.h */; };
 		67989085143CDAF300C64CED /* zTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67989083143CDAF300C64CED /* zTranslation.m */; };
@@ -58,6 +55,21 @@
 		679890B114437E2800C64CED /* zDictionaryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890AF14437E2800C64CED /* zDictionaryService.m */; };
 		679890B414437E9F00C64CED /* zLearningService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890B214437E9F00C64CED /* zLearningService.h */; };
 		679890B514437E9F00C64CED /* zLearningService.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890B314437E9F00C64CED /* zLearningService.m */; };
+		679890B81444CDA900C64CED /* zSearchServiceTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890B61444CDA900C64CED /* zSearchServiceTestCase.h */; };
+		679890B91444CDA900C64CED /* zSearchServiceTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890B71444CDA900C64CED /* zSearchServiceTestCase.m */; };
+		679890BC1444D18B00C64CED /* IZService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890BB1444D18B00C64CED /* IZService.h */; };
+		679890BF1444D1C400C64CED /* zServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890BD1444D1C400C64CED /* zServiceManager.h */; };
+		679890C01444D1C400C64CED /* zServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890BE1444D1C400C64CED /* zServiceManager.m */; };
+		679890C31444D4A600C64CED /* zServiceManagerTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890C11444D4A600C64CED /* zServiceManagerTestCase.h */; };
+		679890C41444D4A600C64CED /* zServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890C21444D4A600C64CED /* zServiceManagerTestCase.m */; };
+		679890C61444D5FE00C64CED /* IZDataBaseService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890C51444D5FE00C64CED /* IZDataBaseService.h */; };
+		679890C81444D61500C64CED /* IZSearchService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890C71444D61500C64CED /* IZSearchService.h */; };
+		679890CA1444D63400C64CED /* IZDictionaryService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890C91444D63400C64CED /* IZDictionaryService.h */; };
+		679890CC1444D64900C64CED /* IZLearningService.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890CB1444D64900C64CED /* IZLearningService.h */; };
+		679890CF1444D6AC00C64CED /* zLearningServiceTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890CD1444D6AB00C64CED /* zLearningServiceTestCase.h */; };
+		679890D01444D6AC00C64CED /* zLearningServiceTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890CE1444D6AB00C64CED /* zLearningServiceTestCase.m */; };
+		679890D31444D6D900C64CED /* WithServicesTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 679890D11444D6D900C64CED /* WithServicesTestCase.h */; };
+		679890D41444D6D900C64CED /* WithServicesTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 679890D21444D6D900C64CED /* WithServicesTestCase.m */; };
 		67E77D2014042F8C00BD445A /* TouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E77D1E14042F8C00BD445A /* TouchableView.m */; };
 		67EC911214004F6800028206 /* StatisticsCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC910E14004F6800028206 /* StatisticsCardView.m */; };
 		67EC911314004F6800028206 /* CardCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC911114004F6800028206 /* CardCourse.m */; };
@@ -129,17 +141,13 @@
 		678586B013F69B1100A7155A /* zTutorTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "zTutorTests-Info.plist"; sourceTree = "<group>"; };
 		678586B113F69B1100A7155A /* zTutorTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zTutorTests-Prefix.pch"; sourceTree = "<group>"; };
 		678586B713F69EE700A7155A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManagerTestCase.h; sourceTree = "<group>"; };
-		678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManagerTestCase.m; sourceTree = "<group>"; };
+		678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceManagerTestCase.h; path = zTutorTests/ServiceManagerTestCase.h; sourceTree = SOURCE_ROOT; };
+		678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServiceManagerTestCase.m; path = zTutorTests/ServiceManagerTestCase.m; sourceTree = SOURCE_ROOT; };
 		67989059143CD96700C64CED /* libzTutorService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzTutorService.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6798905D143CD96700C64CED /* zTutorService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zTutorService-Prefix.pch"; sourceTree = "<group>"; };
-		6798905E143CD96700C64CED /* zTutorService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zTutorService.h; sourceTree = "<group>"; };
-		6798905F143CD96700C64CED /* zTutorService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zTutorService.m; sourceTree = "<group>"; };
 		67989066143CD96700C64CED /* zTutorServiceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zTutorServiceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67989070143CD96700C64CED /* zTutorServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zTutorServiceTests-Info.plist"; sourceTree = "<group>"; };
 		67989072143CD96700C64CED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		67989074143CD96700C64CED /* zTutorServiceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zTutorServiceTests.h; sourceTree = "<group>"; };
-		67989076143CD96700C64CED /* zTutorServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zTutorServiceTests.m; sourceTree = "<group>"; };
 		6798907F143CD9FD00C64CED /* zCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zCard.h; sourceTree = "<group>"; };
 		67989080143CD9FD00C64CED /* zCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zCard.m; sourceTree = "<group>"; };
 		67989082143CDAF300C64CED /* zTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zTranslation.h; sourceTree = "<group>"; };
@@ -167,6 +175,21 @@
 		679890AF14437E2800C64CED /* zDictionaryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zDictionaryService.m; path = Service/zDictionaryService.m; sourceTree = "<group>"; };
 		679890B214437E9F00C64CED /* zLearningService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zLearningService.h; path = Service/zLearningService.h; sourceTree = "<group>"; };
 		679890B314437E9F00C64CED /* zLearningService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zLearningService.m; path = Service/zLearningService.m; sourceTree = "<group>"; };
+		679890B61444CDA900C64CED /* zSearchServiceTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zSearchServiceTestCase.h; path = Service/zSearchServiceTestCase.h; sourceTree = "<group>"; };
+		679890B71444CDA900C64CED /* zSearchServiceTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zSearchServiceTestCase.m; path = Service/zSearchServiceTestCase.m; sourceTree = "<group>"; };
+		679890BB1444D18B00C64CED /* IZService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IZService.h; path = Service/IZService.h; sourceTree = "<group>"; };
+		679890BD1444D1C400C64CED /* zServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zServiceManager.h; path = Service/zServiceManager.h; sourceTree = "<group>"; };
+		679890BE1444D1C400C64CED /* zServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zServiceManager.m; path = Service/zServiceManager.m; sourceTree = "<group>"; };
+		679890C11444D4A600C64CED /* zServiceManagerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zServiceManagerTestCase.h; path = Service/zServiceManagerTestCase.h; sourceTree = "<group>"; };
+		679890C21444D4A600C64CED /* zServiceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zServiceManagerTestCase.m; path = Service/zServiceManagerTestCase.m; sourceTree = "<group>"; };
+		679890C51444D5FE00C64CED /* IZDataBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IZDataBaseService.h; path = Service/IZDataBaseService.h; sourceTree = "<group>"; };
+		679890C71444D61500C64CED /* IZSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IZSearchService.h; path = Service/IZSearchService.h; sourceTree = "<group>"; };
+		679890C91444D63400C64CED /* IZDictionaryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IZDictionaryService.h; path = Service/IZDictionaryService.h; sourceTree = "<group>"; };
+		679890CB1444D64900C64CED /* IZLearningService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IZLearningService.h; path = Service/IZLearningService.h; sourceTree = "<group>"; };
+		679890CD1444D6AB00C64CED /* zLearningServiceTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zLearningServiceTestCase.h; path = Service/zLearningServiceTestCase.h; sourceTree = "<group>"; };
+		679890CE1444D6AB00C64CED /* zLearningServiceTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zLearningServiceTestCase.m; path = Service/zLearningServiceTestCase.m; sourceTree = "<group>"; };
+		679890D11444D6D900C64CED /* WithServicesTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WithServicesTestCase.h; path = Service/WithServicesTestCase.h; sourceTree = "<group>"; };
+		679890D21444D6D900C64CED /* WithServicesTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WithServicesTestCase.m; path = Service/WithServicesTestCase.m; sourceTree = "<group>"; };
 		67E77D1E14042F8C00BD445A /* TouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableView.m; sourceTree = "<group>"; };
 		67E77D1F14042F8C00BD445A /* TouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableView.h; sourceTree = "<group>"; };
 		67EC910E14004F6800028206 /* StatisticsCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticsCardView.m; path = cards/StatisticsCardView.m; sourceTree = "<group>"; };
@@ -289,11 +312,11 @@
 		678586AD13F69B1100A7155A /* zTutorTests */ = {
 			isa = PBXGroup;
 			children = (
+				678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */,
+				678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */,
 				678586AE13F69B1100A7155A /* InfoPlist.strings */,
 				678586B013F69B1100A7155A /* zTutorTests-Info.plist */,
 				678586B113F69B1100A7155A /* zTutorTests-Prefix.pch */,
-				678586B913F6A2F600A7155A /* ServiceManagerTestCase.h */,
-				678586BA13F6A2F600A7155A /* ServiceManagerTestCase.m */,
 			);
 			path = zTutorTests;
 			sourceTree = "<group>";
@@ -303,8 +326,6 @@
 			children = (
 				679890A514437C8600C64CED /* Service */,
 				679890A414437C5D00C64CED /* Element */,
-				6798905E143CD96700C64CED /* zTutorService.h */,
-				6798905F143CD96700C64CED /* zTutorService.m */,
 				6798905C143CD96700C64CED /* Supporting Files */,
 			);
 			path = zTutorService;
@@ -321,8 +342,7 @@
 		6798906E143CD96700C64CED /* zTutorServiceTests */ = {
 			isa = PBXGroup;
 			children = (
-				67989074143CD96700C64CED /* zTutorServiceTests.h */,
-				67989076143CD96700C64CED /* zTutorServiceTests.m */,
+				679890BA1444D09400C64CED /* Service */,
 				6798906F143CD96700C64CED /* Supporting Files */,
 			);
 			path = zTutorServiceTests;
@@ -366,14 +386,36 @@
 		679890A514437C8600C64CED /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				679890C51444D5FE00C64CED /* IZDataBaseService.h */,
 				679890A614437CC300C64CED /* zDataBaseService.h */,
 				679890A714437CC300C64CED /* zDataBaseService.m */,
+				679890C71444D61500C64CED /* IZSearchService.h */,
 				679890AA14437DCF00C64CED /* zSearchService.h */,
 				679890AB14437DCF00C64CED /* zSearchService.m */,
+				679890C91444D63400C64CED /* IZDictionaryService.h */,
 				679890AE14437E2800C64CED /* zDictionaryService.h */,
 				679890AF14437E2800C64CED /* zDictionaryService.m */,
+				679890CB1444D64900C64CED /* IZLearningService.h */,
 				679890B214437E9F00C64CED /* zLearningService.h */,
 				679890B314437E9F00C64CED /* zLearningService.m */,
+				679890BB1444D18B00C64CED /* IZService.h */,
+				679890BD1444D1C400C64CED /* zServiceManager.h */,
+				679890BE1444D1C400C64CED /* zServiceManager.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		679890BA1444D09400C64CED /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				679890B61444CDA900C64CED /* zSearchServiceTestCase.h */,
+				679890B71444CDA900C64CED /* zSearchServiceTestCase.m */,
+				679890C11444D4A600C64CED /* zServiceManagerTestCase.h */,
+				679890C21444D4A600C64CED /* zServiceManagerTestCase.m */,
+				679890CD1444D6AB00C64CED /* zLearningServiceTestCase.h */,
+				679890CE1444D6AB00C64CED /* zLearningServiceTestCase.m */,
+				679890D11444D6D900C64CED /* WithServicesTestCase.h */,
+				679890D21444D6D900C64CED /* WithServicesTestCase.m */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -450,6 +492,8 @@
 			isa = PBXGroup;
 			children = (
 				67F97A5513F5D9EC003C012C /* IService.h */,
+				678586AA13F6835400A7155A /* ServiceManager.h */,
+				678586AB13F6835400A7155A /* ServiceManager.m */,
 				67F97A5713F5D9EC003C012C /* CardService.h */,
 				67F97A5813F5D9EC003C012C /* CardService.m */,
 				67F97A5913F5D9EC003C012C /* DictionaryService.h */,
@@ -462,8 +506,6 @@
 				67F97A6013F5D9EC003C012C /* SearchService.m */,
 				67F97A6113F5D9EC003C012C /* SynchronizationService.h */,
 				67F97A6213F5D9EC003C012C /* SynchronizationService.m */,
-				678586AA13F6835400A7155A /* ServiceManager.h */,
-				678586AB13F6835400A7155A /* ServiceManager.m */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -501,6 +543,16 @@
 				679890AC14437DCF00C64CED /* zSearchService.h in Headers */,
 				679890B014437E2800C64CED /* zDictionaryService.h in Headers */,
 				679890B414437E9F00C64CED /* zLearningService.h in Headers */,
+				679890B81444CDA900C64CED /* zSearchServiceTestCase.h in Headers */,
+				679890BC1444D18B00C64CED /* IZService.h in Headers */,
+				679890BF1444D1C400C64CED /* zServiceManager.h in Headers */,
+				679890C31444D4A600C64CED /* zServiceManagerTestCase.h in Headers */,
+				679890C61444D5FE00C64CED /* IZDataBaseService.h in Headers */,
+				679890C81444D61500C64CED /* IZSearchService.h in Headers */,
+				679890CA1444D63400C64CED /* IZDictionaryService.h in Headers */,
+				679890CC1444D64900C64CED /* IZLearningService.h in Headers */,
+				679890CF1444D6AC00C64CED /* zLearningServiceTestCase.h in Headers */,
+				679890D31444D6D900C64CED /* WithServicesTestCase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +662,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				67989073143CD96700C64CED /* InfoPlist.strings in Resources */,
-				67989075143CD96700C64CED /* zTutorServiceTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +723,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67989060143CD96700C64CED /* zTutorService.m in Sources */,
 				67989085143CDAF300C64CED /* zTranslation.m in Sources */,
 				67989089143CDE8600C64CED /* zArticle.m in Sources */,
 				6798908F143CE27500C64CED /* zDictionary.m in Sources */,
@@ -685,6 +735,11 @@
 				679890AD14437DCF00C64CED /* zSearchService.m in Sources */,
 				679890B114437E2800C64CED /* zDictionaryService.m in Sources */,
 				679890B514437E9F00C64CED /* zLearningService.m in Sources */,
+				679890B91444CDA900C64CED /* zSearchServiceTestCase.m in Sources */,
+				679890C01444D1C400C64CED /* zServiceManager.m in Sources */,
+				679890C41444D4A600C64CED /* zServiceManagerTestCase.m in Sources */,
+				679890D01444D6AC00C64CED /* zLearningServiceTestCase.m in Sources */,
+				679890D41444D6D900C64CED /* WithServicesTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,7 +747,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67989077143CD96700C64CED /* zTutorServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

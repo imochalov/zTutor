@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "zDBRecord.h"
+#import "zPronouncing.h"
 
 
 @interface zCard : zDBRecord
